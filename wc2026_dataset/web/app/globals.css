@@ -259,3 +259,45 @@ body {
   .mtch { gap: 6px; font-size: 11px; }
   .leg { font-size: 11px; }
 }
+
+/* ---- landscape / altura corta: dos columnas para no aplastar el mapa ---- */
+@media (max-height: 520px) {
+  .topbar { padding: 5px 14px; }
+  .brand { font-size: 13px; }
+  .brand small { display: none; }
+  .legend { font-size: 8px; gap: 5px 8px; }
+  .legend i { width: 7px; height: 7px; }
+
+  .stage { grid-template-columns: 1fr minmax(220px, 300px); grid-template-rows: 1fr; }
+  .ranking { border-left: 2px solid var(--ink); border-top: none; }
+
+  .daybig { top: 8px; left: 12px; }
+  .db-day { font-size: 22px; }
+  .db-year { font-size: 12px; }
+
+  .counter { left: 12px; bottom: 52px; }
+  .counter .c1 { font-size: 17px; }
+  .counter .c2 { font-size: 7.5px; margin-top: 2px; }
+  .calive { margin-top: 6px; gap: 6px; }
+  .calive b { font-size: 23px; }
+  .calive span { font-size: 8.5px; max-width: 66px; }
+
+  .controls { padding: 6px 12px; gap: 8px; }
+  .play { width: 34px; height: 34px; font-size: 12px; }
+  .spd { padding: 3px 7px; font-size: 9.5px; }
+
+  .result { top: 8px; min-width: 0; max-width: 340px; padding: 7px 12px 9px; }
+  .rs-body { gap: 12px; margin: 6px 0 3px; }
+  .rs-side img { width: 34px; height: 34px; }
+  .rs-score { font-size: 24px; }
+  .rs-round { font-size: 8.5px; }
+  .rs-stadium { font-size: 9px; }
+
+  .rk-head { padding: 8px 12px; }
+  .rk-row { padding: 4px 8px; gap: 8px; }
+  .rk-flag { width: 20px; height: 20px; }
+  .rk-name { font-size: 12px; }
+  .rk-full { display: none; }
+
+  .focuschip { top: 8px; bottom: auto; right: 12px; left: auto; transform: none; }
+}
