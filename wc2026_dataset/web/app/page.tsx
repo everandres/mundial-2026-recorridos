@@ -89,7 +89,11 @@ function Board({ tl }: { tl: Timeline }) {
           )}
           <div className="counter">
             <div className="c1">{Math.round(totalKm).toLocaleString("es")} km</div>
-            <div className="c2">DISTANCIA TOTAL ACUMULADA · {alive} SELECCIONES EN PIE</div>
+            <div className="c2">Distancia total acumulada</div>
+            <div className="calive">
+              <b>{alive}</b>
+              <span>selecciones en pie</span>
+            </div>
           </div>
           <MatchResultCard clash={featured} />
           <AnimatePresence>

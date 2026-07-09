@@ -47,9 +47,12 @@ body {
 .mapwrap .maplibregl-map { position: absolute; inset: 0; }
 
 /* contador global */
-.counter { position: absolute; left: 20px; bottom: 82px; font-family: var(--font-head); pointer-events: none; }
-.counter .c1 { font-size: 40px; color: var(--ink); line-height: 0.9; }
+.counter { position: absolute; left: 20px; bottom: 84px; font-family: var(--font-head); pointer-events: none; }
+.counter .c1 { font-size: 32px; color: var(--ink); line-height: 0.9; }
 .counter .c2 { font-family: var(--font-sans); font-weight: 600; font-size: 10px; color: var(--mut); letter-spacing: 0.12em; margin-top: 6px; text-transform: uppercase; }
+.calive { display: flex; align-items: baseline; gap: 10px; margin-top: 16px; }
+.calive b { font-family: var(--font-head); font-size: 48px; color: var(--accent); line-height: 0.8; text-shadow: 3px 3px 0 rgba(228, 0, 43, 0.15); }
+.calive span { font-family: var(--font-sans); font-weight: 700; font-size: 12px; color: var(--ink); text-transform: uppercase; letter-spacing: 0.05em; max-width: 96px; line-height: 1.05; }
 
 /* controles de tiempo */
 .controls {

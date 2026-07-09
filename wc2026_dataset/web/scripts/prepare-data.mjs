@@ -35,24 +35,34 @@ const cityCoords = (name) => {
 };
 const pairKey = (date, a, b) => `${date}|${[a, b].sort().join("-")}`;
 
-// ---- hora de cada partido, repartida a lo largo del día ----
-// Los encuentros de una misma fecha se distribuyen en la ventana [LO,HI] del día
-// para que vuelos, choques y tarjetas aparezcan escalonados y no todos de golpe.
+// ---- hora de cada partido dentro del día ----
+// Se usa la hora real de inicio (kickoff en ET) para ubicar cada partido en su
+// fracción del día; así los vuelos, choques y tarjetas quedan escalonados según
+// el horario real. Se acota a [CLAMP_LO,CLAMP_HI] para que el vuelo de ida/regreso
+// siempre tenga margen. Si faltara la hora, se reparte de forma uniforme.
 const MATCH_LO = 0.28, MATCH_HI = 0.82;
+const CLAMP_LO = 0.12, CLAMP_HI = 0.92;
+const parseHour = (s) => {
+  if (!s) return null;
+  const [h, m] = s.split(":").map(Number);
+  return (h + (m || 0) / 60) / 24;
+};
 const matchTimeByKey = new Map();
 {
   const byDate = new Map();
-  const add = (date, a, b) => {
+  const add = (date, a, b, kickoff) => {
     if (!byDate.has(date)) byDate.set(date, []);
-    byDate.get(date).push([date, a, b]);
+    byDate.get(date).push([date, a, b, kickoff]);
   };
-  for (const m of matchesRaw.group) add(m.date, m.home, m.away);
-  for (const m of matchesRaw.knockout) add(m.date, m.teamA, m.teamB);
+  for (const m of matchesRaw.group) add(m.date, m.home, m.away, m.kickoff_et);
+  for (const m of matchesRaw.knockout) add(m.date, m.teamA, m.teamB, m.kickoff_et);
   for (const [date, list] of byDate) {
     const d = dayOf(date);
     const n = list.length;
-    list.forEach(([dt, a, b], i) => {
-      const frac = n === 1 ? 0.5 : MATCH_LO + (i / (n - 1)) * (MATCH_HI - MATCH_LO);
+    list.forEach(([dt, a, b, kickoff], i) => {
+      let frac = parseHour(kickoff);
+      if (frac == null) frac = n === 1 ? 0.5 : MATCH_LO + (i / (n - 1)) * (MATCH_HI - MATCH_LO);
+      frac = Math.max(CLAMP_LO, Math.min(CLAMP_HI, frac));
       matchTimeByKey.set(pairKey(dt, a, b), d + frac);
     });
   }
@@ -165,6 +175,8 @@ const clashes = [];
 let cid = 0;
 
 const pushClash = (m, a, b, isKnockout) => {
+  // No incluir partidos que aún no se han jugado (sin marcador ni ganador).
+  if (!m.score && !m.winner) return;
   const coords = cityCoords(m.city);
   if (!coords) return;
   const d = dayOf(m.date);
