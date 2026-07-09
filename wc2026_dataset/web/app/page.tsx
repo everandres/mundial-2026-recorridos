@@ -1,12 +1,14 @@
 "use client";
 import dynamic from "next/dynamic";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { AnimatePresence } from "motion/react";
 import type { Timeline } from "@/lib/types";
 import { useClock } from "@/lib/useClock";
 import { featuredClash, fmtDate, teamMarkers } from "@/lib/timeline";
 import RankingRace from "@/components/RankingRace";
 import TimelineControls from "@/components/TimelineControls";
 import MatchResultCard from "@/components/MatchResultCard";
+import TeamDetail from "@/components/TeamDetail";
 
 const MapCanvas = dynamic(() => import("@/components/MapCanvas"), { ssr: false });
 
@@ -32,11 +34,27 @@ function Board({ tl }: { tl: Timeline }) {
     () => teamMarkers(tl, t).reduce((s, m) => s + m.km, 0),
     [tl, t],
   );
-  const featured = useMemo(() => featuredClash(tl, t), [tl, t]);
   const alive = useMemo(
     () => Object.values(tl.teams).filter((x) => !(x.eliminated && x.elimTime != null && t >= x.elimTime)).length,
     [tl, t],
   );
+
+  // focus: recorrido aislado en el mapa · detail: panel completo de la selección
+  const [focus, setFocus] = useState<string | null>(null);
+  const [detail, setDetail] = useState<string | null>(null);
+
+  // En modo foco, la tarjeta muestra solo los partidos de la selección enfocada.
+  const featured = useMemo(() => featuredClash(tl, t, focus), [tl, t, focus]);
+
+  const onMapSelect = useCallback((code: string) => setFocus((f) => (f === code ? null : code)), []);
+  const onRankSelect = useCallback((code: string) => {
+    setDetail(code);
+    setFocus(code);
+  }, []);
+  const closeDetail = useCallback(() => {
+    setDetail(null);
+    setFocus(null);
+  }, []);
 
   return (
     <div className="app">
@@ -57,16 +75,26 @@ function Board({ tl }: { tl: Timeline }) {
 
       <main className="stage">
         <div className="mapwrap">
-          <MapCanvas tl={tl} t={t} />
+          <MapCanvas tl={tl} t={t} focus={focus} onSelect={onMapSelect} />
           <div className="daybig">
             <span className="db-day">{fmtDate(tl.meta.day0, t)}</span>
             <span className="db-year">2026</span>
           </div>
+          {focus && !detail && (
+            <button className="focuschip" onClick={() => setFocus(null)}>
+              <img src={`/flags/${tl.teams[focus].iso}.png`} alt="" />
+              {tl.teams[focus].name}
+              <span className="fc-x">✕ ver todos</span>
+            </button>
+          )}
           <div className="counter">
             <div className="c1">{Math.round(totalKm).toLocaleString("es")} km</div>
             <div className="c2">DISTANCIA TOTAL ACUMULADA · {alive} SELECCIONES EN PIE</div>
           </div>
           <MatchResultCard clash={featured} />
+          <AnimatePresence>
+            {detail && <TeamDetail key={detail} tl={tl} code={detail} onClose={closeDetail} />}
+          </AnimatePresence>
           <TimelineControls
             t={t}
             min={tl.meta.minDay}
@@ -78,7 +106,7 @@ function Board({ tl }: { tl: Timeline }) {
             onSpeed={setSpeed}
           />
         </div>
-        <RankingRace tl={tl} t={t} />
+        <RankingRace tl={tl} t={t} onSelect={onRankSelect} selected={focus} />
       </main>
     </div>
   );

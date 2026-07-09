@@ -121,8 +121,15 @@ export function activeClashes(tl: Timeline, t: number, win = 0.28): Clash[] {
 
 // Choque destacado para la tarjeta de resultado. En una jornada con varios
 // partidos simultáneos (fase de grupos) cicla entre ellos a lo largo de la ventana.
-export function featuredClash(tl: Timeline, t: number, win = 0.45): Clash | null {
-  const active = tl.clashes.filter((c) => c.score && t >= c.tMatch && t <= c.tMatch + win);
+// Si se pasa `code`, solo considera los partidos de esa selección (modo foco).
+export function featuredClash(tl: Timeline, t: number, code: string | null = null, win = 0.45): Clash | null {
+  const active = tl.clashes.filter(
+    (c) =>
+      c.score &&
+      (!code || c.a.code === code || c.b.code === code) &&
+      t >= c.tMatch &&
+      t <= c.tMatch + win,
+  );
   if (active.length === 0) return null;
   let latest = -Infinity;
   for (const c of active) if (c.tMatch > latest) latest = c.tMatch;

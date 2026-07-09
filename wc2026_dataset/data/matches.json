@@ -2,6 +2,8 @@
   "group": [
     {
       "date": "2026-06-11",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "MEX",
       "away": "RSA",
@@ -12,6 +14,8 @@
     },
     {
       "date": "2026-06-11",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "KOR",
       "away": "CZE",
@@ -22,6 +26,8 @@
     },
     {
       "date": "2026-06-18",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "CZE",
       "away": "RSA",
@@ -32,6 +38,8 @@
     },
     {
       "date": "2026-06-18",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "MEX",
       "away": "KOR",
@@ -42,6 +50,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "CZE",
       "away": "MEX",
@@ -52,6 +62,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "A",
       "home": "RSA",
       "away": "KOR",
@@ -62,6 +74,8 @@
     },
     {
       "date": "2026-06-12",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "CAN",
       "away": "BIH",
@@ -72,6 +86,8 @@
     },
     {
       "date": "2026-06-13",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "QAT",
       "away": "SUI",
@@ -82,6 +98,8 @@
     },
     {
       "date": "2026-06-18",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "SUI",
       "away": "BIH",
@@ -92,6 +110,8 @@
     },
     {
       "date": "2026-06-18",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "CAN",
       "away": "QAT",
@@ -102,6 +122,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "SUI",
       "away": "CAN",
@@ -112,6 +134,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "B",
       "home": "BIH",
       "away": "QAT",
@@ -122,6 +146,8 @@
     },
     {
       "date": "2026-06-13",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "BRA",
       "away": "MAR",
@@ -132,6 +158,8 @@
     },
     {
       "date": "2026-06-13",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "HAI",
       "away": "SCO",
@@ -142,6 +170,8 @@
     },
     {
       "date": "2026-06-19",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "SCO",
       "away": "MAR",
@@ -152,6 +182,8 @@
     },
     {
       "date": "2026-06-19",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "BRA",
       "away": "HAI",
@@ -162,6 +194,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "SCO",
       "away": "BRA",
@@ -172,6 +206,8 @@
     },
     {
       "date": "2026-06-24",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "C",
       "home": "MAR",
       "away": "HAI",
@@ -182,6 +218,8 @@
     },
     {
       "date": "2026-06-12",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "USA",
       "away": "PAR",
@@ -192,6 +230,8 @@
     },
     {
       "date": "2026-06-13",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "AUS",
       "away": "TUR",
@@ -202,6 +242,8 @@
     },
     {
       "date": "2026-06-19",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "USA",
       "away": "AUS",
@@ -212,6 +254,8 @@
     },
     {
       "date": "2026-06-19",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "TUR",
       "away": "PAR",
@@ -222,6 +266,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "TUR",
       "away": "USA",
@@ -232,6 +278,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "D",
       "home": "PAR",
       "away": "AUS",
@@ -242,6 +290,8 @@
     },
     {
       "date": "2026-06-14",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "GER",
       "away": "CUW",
@@ -252,6 +302,8 @@
     },
     {
       "date": "2026-06-14",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "CIV",
       "away": "ECU",
@@ -262,6 +314,8 @@
     },
     {
       "date": "2026-06-20",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "GER",
       "away": "CIV",
@@ -272,6 +326,8 @@
     },
     {
       "date": "2026-06-20",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "ECU",
       "away": "CUW",
@@ -282,6 +338,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "ECU",
       "away": "GER",
@@ -292,6 +350,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "E",
       "home": "CUW",
       "away": "CIV",
@@ -302,6 +362,8 @@
     },
     {
       "date": "2026-06-14",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "NED",
       "away": "JPN",
@@ -312,6 +374,8 @@
     },
     {
       "date": "2026-06-14",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "SWE",
       "away": "TUN",
@@ -322,6 +386,8 @@
     },
     {
       "date": "2026-06-20",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "NED",
       "away": "SWE",
@@ -332,6 +398,8 @@
     },
     {
       "date": "2026-06-20",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "TUN",
       "away": "JPN",
@@ -342,6 +410,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "JPN",
       "away": "SWE",
@@ -352,6 +422,8 @@
     },
     {
       "date": "2026-06-25",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "F",
       "home": "TUN",
       "away": "NED",
@@ -362,6 +434,8 @@
     },
     {
       "date": "2026-06-15",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "IRN",
       "away": "NZL",
@@ -372,6 +446,8 @@
     },
     {
       "date": "2026-06-15",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "BEL",
       "away": "EGY",
@@ -382,6 +458,8 @@
     },
     {
       "date": "2026-06-21",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "BEL",
       "away": "IRN",
@@ -392,6 +470,8 @@
     },
     {
       "date": "2026-06-21",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "NZL",
       "away": "EGY",
@@ -402,6 +482,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "EGY",
       "away": "IRN",
@@ -412,6 +494,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "G",
       "home": "NZL",
       "away": "BEL",
@@ -422,6 +506,8 @@
     },
     {
       "date": "2026-06-15",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "ESP",
       "away": "CPV",
@@ -432,6 +518,8 @@
     },
     {
       "date": "2026-06-15",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "KSA",
       "away": "URU",
@@ -442,6 +530,8 @@
     },
     {
       "date": "2026-06-21",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "ESP",
       "away": "KSA",
@@ -452,6 +542,8 @@
     },
     {
       "date": "2026-06-21",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "URU",
       "away": "CPV",
@@ -462,6 +554,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "CPV",
       "away": "KSA",
@@ -472,6 +566,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "H",
       "home": "URU",
       "away": "ESP",
@@ -482,6 +578,8 @@
     },
     {
       "date": "2026-06-16",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "FRA",
       "away": "SEN",
@@ -492,6 +590,8 @@
     },
     {
       "date": "2026-06-16",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "IRQ",
       "away": "NOR",
@@ -502,6 +602,8 @@
     },
     {
       "date": "2026-06-22",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "FRA",
       "away": "IRQ",
@@ -512,6 +614,8 @@
     },
     {
       "date": "2026-06-22",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "NOR",
       "away": "SEN",
@@ -522,6 +626,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "NOR",
       "away": "FRA",
@@ -532,6 +638,8 @@
     },
     {
       "date": "2026-06-26",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "I",
       "home": "SEN",
       "away": "IRQ",
@@ -542,6 +650,8 @@
     },
     {
       "date": "2026-06-16",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "ARG",
       "away": "ALG",
@@ -552,6 +662,8 @@
     },
     {
       "date": "2026-06-17",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "AUT",
       "away": "JOR",
@@ -562,6 +674,8 @@
     },
     {
       "date": "2026-06-22",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "ARG",
       "away": "AUT",
@@ -572,6 +686,8 @@
     },
     {
       "date": "2026-06-22",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "JOR",
       "away": "ALG",
@@ -582,6 +698,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "ALG",
       "away": "AUT",
@@ -592,6 +710,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "J",
       "home": "JOR",
       "away": "ARG",
@@ -602,6 +722,8 @@
     },
     {
       "date": "2026-06-17",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "POR",
       "away": "COD",
@@ -612,6 +734,8 @@
     },
     {
       "date": "2026-06-17",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "UZB",
       "away": "COL",
@@ -622,6 +746,8 @@
     },
     {
       "date": "2026-06-23",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "POR",
       "away": "UZB",
@@ -632,6 +758,8 @@
     },
     {
       "date": "2026-06-23",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "COL",
       "away": "COD",
@@ -642,6 +770,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "COL",
       "away": "POR",
@@ -652,6 +782,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "K",
       "home": "COD",
       "away": "UZB",
@@ -662,6 +794,8 @@
     },
     {
       "date": "2026-06-17",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "ENG",
       "away": "CRO",
@@ -672,6 +806,8 @@
     },
     {
       "date": "2026-06-17",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "GHA",
       "away": "PAN",
@@ -682,6 +818,8 @@
     },
     {
       "date": "2026-06-23",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "ENG",
       "away": "GHA",
@@ -692,6 +830,8 @@
     },
     {
       "date": "2026-06-23",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "PAN",
       "away": "CRO",
@@ -702,6 +842,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "PAN",
       "away": "ENG",
@@ -712,6 +854,8 @@
     },
     {
       "date": "2026-06-27",
+      "kickoff_et": null,
+      "kickoff_et_12h": null,
       "group": "L",
       "home": "CRO",
       "away": "GHA",
@@ -725,6 +869,8 @@
     {
       "match": 73,
       "date": "2026-06-28",
+      "kickoff_et": "15:00",
+      "kickoff_et_12h": "3:00 PM ET",
       "round": "Round32",
       "teamA": "CAN",
       "teamB": "RSA",
@@ -738,6 +884,8 @@
     {
       "match": 74,
       "date": "2026-06-29",
+      "kickoff_et": "16:30",
+      "kickoff_et_12h": "4:30 PM ET",
       "round": "Round32",
       "teamA": "GER",
       "teamB": "PAR",
@@ -751,6 +899,8 @@
     {
       "match": 75,
       "date": "2026-06-29",
+      "kickoff_et": "21:00",
+      "kickoff_et_12h": "9:00 PM ET",
       "round": "Round32",
       "teamA": "NED",
       "teamB": "MAR",
@@ -764,6 +914,8 @@
     {
       "match": 76,
       "date": "2026-06-29",
+      "kickoff_et": "13:00",
+      "kickoff_et_12h": "1:00 PM ET",
       "round": "Round32",
       "teamA": "BRA",
       "teamB": "JPN",
@@ -777,6 +929,8 @@
     {
       "match": 77,
       "date": "2026-06-30",
+      "kickoff_et": "17:00",
+      "kickoff_et_12h": "5:00 PM ET",
       "round": "Round32",
       "teamA": "FRA",
       "teamB": "SWE",
@@ -790,6 +944,8 @@
     {
       "match": 78,
       "date": "2026-06-30",
+      "kickoff_et": "13:00",
+      "kickoff_et_12h": "1:00 PM ET",
       "round": "Round32",
       "teamA": "CIV",
       "teamB": "NOR",
@@ -803,6 +959,8 @@
     {
       "match": 79,
       "date": "2026-06-30",
+      "kickoff_et": "22:00",
+      "kickoff_et_12h": "10:00 PM ET",
       "round": "Round32",
       "teamA": "MEX",
       "teamB": "ECU",
@@ -816,6 +974,8 @@
     {
       "match": 80,
       "date": "2026-07-01",
+      "kickoff_et": "12:00",
+      "kickoff_et_12h": "12:00 PM ET",
       "round": "Round32",
       "teamA": "ENG",
       "teamB": "COD",
@@ -829,6 +989,8 @@
     {
       "match": 81,
       "date": "2026-07-01",
+      "kickoff_et": "16:00",
+      "kickoff_et_12h": "4:00 PM ET",
       "round": "Round32",
       "teamA": "BEL",
       "teamB": "SEN",
@@ -842,6 +1004,8 @@
     {
       "match": 82,
       "date": "2026-07-01",
+      "kickoff_et": "20:00",
+      "kickoff_et_12h": "8:00 PM ET",
       "round": "Round32",
       "teamA": "USA",
       "teamB": "BIH",
@@ -855,6 +1019,8 @@
     {
       "match": 83,
       "date": "2026-07-02",
+      "kickoff_et": "15:00",
+      "kickoff_et_12h": "3:00 PM ET",
       "round": "Round32",
       "teamA": "ESP",
       "teamB": "AUT",
@@ -868,6 +1034,8 @@
     {
       "match": 84,
       "date": "2026-07-02",
+      "kickoff_et": "19:00",
+      "kickoff_et_12h": "7:00 PM ET",
       "round": "Round32",
       "teamA": "POR",
       "teamB": "CRO",
@@ -881,6 +1049,8 @@
     {
       "match": 85,
       "date": "2026-07-02",
+      "kickoff_et": "23:00",
+      "kickoff_et_12h": "11:00 PM ET",
       "round": "Round32",
       "teamA": "SUI",
       "teamB": "ALG",
@@ -894,6 +1064,8 @@
     {
       "match": 86,
       "date": "2026-07-03",
+      "kickoff_et": "14:00",
+      "kickoff_et_12h": "2:00 PM ET",
       "round": "Round32",
       "teamA": "EGY",
       "teamB": "AUS",
@@ -907,6 +1079,8 @@
     {
       "match": 87,
       "date": "2026-07-03",
+      "kickoff_et": "18:00",
+      "kickoff_et_12h": "6:00 PM ET",
       "round": "Round32",
       "teamA": "ARG",
       "teamB": "CPV",
@@ -920,6 +1094,8 @@
     {
       "match": 88,
       "date": "2026-07-03",
+      "kickoff_et": "21:30",
+      "kickoff_et_12h": "9:30 PM ET",
       "round": "Round32",
       "teamA": "COL",
       "teamB": "GHA",
@@ -933,6 +1109,8 @@
     {
       "match": 89,
       "date": "2026-07-04",
+      "kickoff_et": "13:00",
+      "kickoff_et_12h": "1:00 PM ET",
       "round": "Round16",
       "teamA": "CAN",
       "teamB": "MAR",
@@ -946,6 +1124,8 @@
     {
       "match": 90,
       "date": "2026-07-04",
+      "kickoff_et": "17:00",
+      "kickoff_et_12h": "5:00 PM ET",
       "round": "Round16",
       "teamA": "PAR",
       "teamB": "FRA",
@@ -959,6 +1139,8 @@
     {
       "match": 91,
       "date": "2026-07-05",
+      "kickoff_et": "16:00",
+      "kickoff_et_12h": "4:00 PM ET",
       "round": "Round16",
       "teamA": "BRA",
       "teamB": "NOR",
@@ -972,6 +1154,8 @@
     {
       "match": 92,
       "date": "2026-07-05",
+      "kickoff_et": "20:00",
+      "kickoff_et_12h": "8:00 PM ET",
       "round": "Round16",
       "teamA": "MEX",
       "teamB": "ENG",
@@ -985,6 +1169,8 @@
     {
       "match": 93,
       "date": "2026-07-06",
+      "kickoff_et": "15:00",
+      "kickoff_et_12h": "3:00 PM ET",
       "round": "Round16",
       "teamA": "POR",
       "teamB": "ESP",
@@ -998,6 +1184,8 @@
     {
       "match": 94,
       "date": "2026-07-06",
+      "kickoff_et": "20:00",
+      "kickoff_et_12h": "8:00 PM ET",
       "round": "Round16",
       "teamA": "USA",
       "teamB": "BEL",
@@ -1011,6 +1199,8 @@
     {
       "match": 95,
       "date": "2026-07-07",
+      "kickoff_et": "12:00",
+      "kickoff_et_12h": "12:00 PM ET",
       "round": "Round16",
       "teamA": "ARG",
       "teamB": "EGY",
@@ -1024,6 +1214,8 @@
     {
       "match": 96,
       "date": "2026-07-07",
+      "kickoff_et": "16:00",
+      "kickoff_et_12h": "4:00 PM ET",
       "round": "Round16",
       "teamA": "SUI",
       "teamB": "COL",
@@ -1037,6 +1229,8 @@
     {
       "match": 97,
       "date": "2026-07-09",
+      "kickoff_et": "16:00",
+      "kickoff_et_12h": "4:00 PM ET",
       "round": "Quarterfinal",
       "teamA": "FRA",
       "teamB": "MAR",
@@ -1050,6 +1244,8 @@
     {
       "match": 98,
       "date": "2026-07-10",
+      "kickoff_et": "15:00",
+      "kickoff_et_12h": "3:00 PM ET",
       "round": "Quarterfinal",
       "teamA": "ESP",
       "teamB": "BEL",
@@ -1063,6 +1259,8 @@
     {
       "match": 99,
       "date": "2026-07-11",
+      "kickoff_et": "17:00",
+      "kickoff_et_12h": "5:00 PM ET",
       "round": "Quarterfinal",
       "teamA": "NOR",
       "teamB": "ENG",
@@ -1076,6 +1274,8 @@
     {
       "match": 100,
       "date": "2026-07-11",
+      "kickoff_et": "21:00",
+      "kickoff_et_12h": "9:00 PM ET",
       "round": "Quarterfinal",
       "teamA": "ARG",
       "teamB": "SUI",

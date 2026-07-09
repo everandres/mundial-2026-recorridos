@@ -24,7 +24,9 @@ export default function MatchResultCard({ clash }: { clash: Clash | null }) {
             </div>
             <Side iso={clash.b.iso} code={clash.b.code} win={clash.winner === clash.b.code} dir={1} />
           </div>
-          <div className="rs-stadium">{clash.stadium}</div>
+          <div className="rs-stadium">
+            {clash.stadium}{clash.kickoff ? ` · ${clash.kickoff}` : ""}
+          </div>
         </motion.div>
       )}
     </AnimatePresence>

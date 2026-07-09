@@ -43,17 +43,31 @@ const MAP_STYLE: StyleSpecification = {
 };
 
 function DeckOverlay(props: { layers: unknown[] }) {
-  const overlay = useControl(() => new MapboxOverlay({ interleaved: true }));
+  // overlaid (no interleaved): deck dibuja sobre el basemap y gestiona el picking
+  // directamente, necesario para el clic en banderas.
+  const overlay = useControl(() => new MapboxOverlay({ interleaved: false }));
   // @ts-expect-error deck acepta layers dinámicos
   overlay.setProps({ layers: props.layers });
   return null;
 }
 
-export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
+export default function MapCanvas({
+  tl,
+  t,
+  focus,
+  onSelect,
+}: {
+  tl: Timeline;
+  t: number;
+  focus: string | null;
+  onSelect: (code: string) => void;
+}) {
   const layers = useMemo(() => {
     const markers = teamMarkers(tl, t);
-    const trails = trailFlights(tl, t);
-    const clashes = activeClashes(tl, t);
+    // Con foco: se muestra el recorrido COMPLETO de ese equipo (todos sus legs);
+    // sin foco: solo las estelas ya iniciadas en el tiempo t.
+    const trails = focus ? tl.flights.filter((f) => f.code === focus) : trailFlights(tl, t);
+    const clashes = activeClashes(tl, t).filter((c) => !focus || c.a.code === focus || c.b.code === focus);
     const tombs = graves(tl, t);
 
     // Reparte en abanico las banderas que comparten posición (bases o sede de partido)
@@ -112,14 +126,18 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
         getTargetPosition: (d) => d.to,
         getSourceColor: (d) => {
           const [r, g, b] = rgbDark(d.color);
+          if (focus) return [r, g, b, d.isReturn ? 130 : 255];
           return [r, g, b, d.isReturn ? 55 : d.isKnockout ? 220 : 140];
         },
         getTargetColor: (d) => {
           const [r, g, b] = rgbDark(d.color);
+          if (focus) return [r, g, b, d.isReturn ? 130 : 255];
           return [r, g, b, d.isReturn ? 55 : d.isKnockout ? 220 : 140];
         },
-        getWidth: (d) => (d.isKnockout ? 2.5 : d.isReturn ? 0.8 : 1.4),
+        getWidth: (d) =>
+          focus ? (d.isKnockout ? 4 : d.isReturn ? 1.6 : 3) : d.isKnockout ? 2.5 : d.isReturn ? 0.8 : 1.4,
         widthUnits: "pixels",
+        updateTriggers: { getSourceColor: focus, getTargetColor: focus, getWidth: focus },
       }),
       new ScatterplotLayer({
         id: "clash-pulse",
@@ -139,6 +157,10 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
       new IconLayer({
         id: "flags",
         data: markers,
+        pickable: true,
+        onClick: (info: { object?: TeamMarker }) => {
+          if (info.object) onSelect(info.object.code);
+        },
         getPosition: (d) => d.pos,
         getIcon: (d) => ({
           id: d.eliminated ? `${d.iso}_g` : d.iso,
@@ -147,11 +169,21 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
           height: 128,
           mask: false,
         }),
-        getSize: (d) => (d.flying ? 28 : 20),
+        getSize: (d) => {
+          const base = d.flying ? 28 : 20;
+          return focus && d.code === focus ? base * 1.3 : base;
+        },
+        getColor: (d) => (!focus || d.code === focus ? [255, 255, 255, 255] : [255, 255, 255, 70]),
         getPixelOffset: (d) => offsets.get(d.code) ?? [0, 0],
         sizeUnits: "pixels",
         billboard: true,
-        updateTriggers: { getPosition: t, getIcon: t, getSize: t, getPixelOffset: t },
+        updateTriggers: {
+          getPosition: t,
+          getIcon: t,
+          getSize: [t, focus],
+          getColor: focus,
+          getPixelOffset: t,
+        },
       }),
       new IconLayer({
         id: "graves",
@@ -163,7 +195,7 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
         sizeUnits: "pixels",
       }),
     ];
-  }, [tl, t]);
+  }, [tl, t, focus, onSelect]);
 
   return (
     <MapGL

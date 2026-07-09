@@ -148,11 +148,14 @@ for (const file of itinFiles) {
     iso: iso(code),
     color: col,
     baseCamp: it.baseCamp,
+    baseCampFacility: it.baseCampFacility || null,
+    baseCampCountry: it.baseCampCountry || null,
     baseCoords: lonlat(it.baseCampCoords),
     eliminated: it.eliminated,
     eliminatedRound: it.eliminatedRound || null,
     stageReached: it.stageReached,
     totalKm: it.metrics.total_km,
+    metrics: it.metrics,
     ...elim,
   };
 }
@@ -182,6 +185,7 @@ const pushClash = (m, a, b, isKnockout) => {
     score: m.score || null,
     penalties: m.penalties || null,
     winner: m.winner || null,
+    kickoff: m.kickoff_et_12h || null,
   });
 };
 

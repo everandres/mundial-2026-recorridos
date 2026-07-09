@@ -4,7 +4,17 @@ import { AnimatePresence, motion } from "motion/react";
 import type { Timeline } from "@/lib/types";
 import { ranking, teamMarkers } from "@/lib/timeline";
 
-export default function RankingRace({ tl, t }: { tl: Timeline; t: number }) {
+export default function RankingRace({
+  tl,
+  t,
+  onSelect,
+  selected,
+}: {
+  tl: Timeline;
+  t: number;
+  onSelect: (code: string) => void;
+  selected: string | null;
+}) {
   // Reordena a ~10 fps para no saturar el layout animado.
   const tq = Math.round(t * 10) / 10;
   const rows = useMemo(() => ranking(tl, teamMarkers(tl, tq)), [tl, tq]);
@@ -23,7 +33,9 @@ export default function RankingRace({ tl, t }: { tl: Timeline; t: number }) {
               key={r.code}
               layout
               transition={{ type: "spring", stiffness: 500, damping: 42 }}
-              className={`rk-row${r.eliminated ? " out" : ""}`}
+              className={`rk-row${r.eliminated ? " out" : ""}${selected === r.code ? " sel" : ""}`}
+              onClick={() => onSelect(r.code)}
+              role="button"
             >
               <span className="rk-pos">{r.rank}</span>
               <img className="rk-flag" src={`/flags/${r.iso}${r.eliminated ? "_gray" : ""}.png`} alt="" />

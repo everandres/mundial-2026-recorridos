@@ -24,6 +24,19 @@ export interface Flight {
   result: string | null;
 }
 
+export interface Metrics {
+  total_km: number;
+  group_stage_km: number;
+  knockout_km: number;
+  num_legs: number;
+  cities_visited: number;
+  countries_visited: number;
+  countries: string[];
+  avg_leg_km: number;
+  longest_leg_km: number;
+  shortest_leg_km: number;
+}
+
 export interface Team {
   code: string;
   name: string;
@@ -31,11 +44,14 @@ export interface Team {
   iso: string;
   color: string;
   baseCamp: string;
+  baseCampFacility: string | null;
+  baseCampCountry: string | null;
   baseCoords: LngLat;
   eliminated: boolean;
   eliminatedRound: string | null;
   stageReached: string;
   totalKm: number;
+  metrics: Metrics;
   elimCity?: string;
   elimCoords?: LngLat;
   elimDay?: number;
@@ -63,6 +79,7 @@ export interface Clash {
   score: string | null;
   penalties: string | null;
   winner: string | null;
+  kickoff: string | null;
 }
 
 export interface Stadium {
