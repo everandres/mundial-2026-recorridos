@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import MapGL, { useControl, type MapRef } from "react-map-gl/maplibre";
 import { MapboxOverlay } from "@deck.gl/mapbox";
 import { IconLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
@@ -87,6 +87,16 @@ export default function MapCanvas({
   focus: string | null;
   onSelect: (code: string) => void;
 }) {
+  // En pantallas angostas el mapa va más alejado y todo se apiña: se achican
+  // los íconos accesorios (dormir) para que no compitan con la bandera.
+  const [narrow, setNarrow] = useState(false);
+  useEffect(() => {
+    const check = () => setNarrow(window.innerWidth < 600);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
   const layers = useMemo(() => {
     const markers = teamMarkers(tl, t);
     // Con foco: se muestra el recorrido COMPLETO de ese equipo (todos sus legs);
@@ -120,7 +130,10 @@ export default function MapCanvas({
 
     // Selecciones en reposo (no vuelan, no eliminadas): camita animada sobre la bandera.
     const resting = markers.filter((m) => !m.flying && !m.eliminated && (!focus || m.code === focus));
-    const sleepSize = 16 + Math.sin(t * 5) * 1.3; // leve latido de sueño
+    // Bandera en reposo ~20px; el ícono de dormir va notablemente más pequeño
+    // (~55-60%) y aún menor en pantallas angostas para no apiñarse.
+    const sleepBase = narrow ? 9.5 : 12;
+    const sleepSize = sleepBase + Math.sin(t * 5) * 1; // leve latido de sueño
 
     return [
       new ScatterplotLayer({
@@ -224,12 +237,12 @@ export default function MapCanvas({
         getSize: sleepSize,
         getPixelOffset: (d: TeamMarker) => {
           const [ox, oy] = offsets.get(d.code) ?? [0, 0];
-          const bob = Math.sin(t * 12 + d.code.charCodeAt(0)) * 1.4;
-          return [ox + 13, oy - 15 + bob];
+          const bob = Math.sin(t * 12 + d.code.charCodeAt(0)) * 1.2;
+          return [ox + (narrow ? 8 : 10), oy + (narrow ? -10 : -12) + bob];
         },
         sizeUnits: "pixels",
         billboard: true,
-        updateTriggers: { getSize: t, getPixelOffset: [t, focus] },
+        updateTriggers: { getSize: [t, narrow], getPixelOffset: [t, focus, narrow] },
       }),
       new IconLayer({
         id: "explosions",
@@ -258,7 +271,7 @@ export default function MapCanvas({
         sizeUnits: "pixels",
       }),
     ];
-  }, [tl, t, focus, onSelect]);
+  }, [tl, t, focus, onSelect, narrow]);
 
   const mapRef = useRef<MapRef | null>(null);
   const fitToScreen = useCallback((instant = false) => {
