@@ -139,10 +139,25 @@ export function featuredClash(tl: Timeline, t: number, code: string | null = nul
   return day[idx];
 }
 
-// Eliminaciones ya ocurridas (para lápidas).
+// Duración de la explosión antes de que aparezca la lápida.
+export const EXPL_DUR = 0.14;
+
+// Explosión breve en el momento de la eliminación (antes de la lápida).
+export function explosions(tl: Timeline, t: number): Team[] {
+  return Object.values(tl.teams).filter(
+    (team) =>
+      team.eliminated &&
+      team.elimTime != null &&
+      team.elimCoords &&
+      t >= team.elimTime &&
+      t < team.elimTime + EXPL_DUR,
+  );
+}
+
+// Eliminaciones ya ocurridas (para lápidas), tras la explosión.
 export function graves(tl: Timeline, t: number): Team[] {
   return Object.values(tl.teams).filter(
-    (team) => team.eliminated && team.elimTime != null && t >= team.elimTime && team.elimCoords,
+    (team) => team.eliminated && team.elimTime != null && t >= team.elimTime + EXPL_DUR && team.elimCoords,
   );
 }
 

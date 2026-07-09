@@ -8,7 +8,7 @@ import type { ExpressionSpecification, StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Timeline } from "@/lib/types";
 import { rgbDark } from "@/lib/colors";
-import { activeClashes, graves, teamMarkers, trailFlights, type TeamMarker } from "@/lib/timeline";
+import { activeClashes, explosions, graves, teamMarkers, trailFlights, EXPL_DUR, type TeamMarker } from "@/lib/timeline";
 
 const TOMB =
   "data:image/svg+xml;base64," +
@@ -16,11 +16,20 @@ const TOMB =
     `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="#6b7280"/><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="none" stroke="#2f3542" stroke-width="2"/><rect x="27" y="34" width="10" height="3" fill="#fff"/><rect x="30.5" y="30" width="3" height="14" fill="#fff"/></svg>`,
   );
 
-// Camita: indica que la selección está descansando en su base.
-const BED =
+// Explosión cómica (starburst) para el momento de la eliminación.
+function starburst(cx: number, cy: number, spikes: number, outer: number, inner: number): string {
+  let d = "";
+  for (let i = 0; i < spikes * 2; i++) {
+    const r = i % 2 === 0 ? outer : inner;
+    const a = (Math.PI * i) / spikes - Math.PI / 2;
+    d += (i === 0 ? "M" : "L") + (cx + Math.cos(a) * r).toFixed(1) + " " + (cy + Math.sin(a) * r).toFixed(1);
+  }
+  return d + "Z";
+}
+const EXPLO =
   "data:image/svg+xml;base64," +
   btoa(
-    `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="30" viewBox="0 0 44 30"><g fill="#14171F"><rect x="2" y="7" width="4.5" height="20" rx="2"/><rect x="3" y="19" width="38" height="5" rx="2.5"/><rect x="36.5" y="13" width="4.5" height="14" rx="2"/></g><rect x="6" y="12.5" width="31" height="7.5" rx="3.75" fill="#E4002B"/><circle cx="12" cy="13" r="3.6" fill="#fff" stroke="#14171F" stroke-width="1.2"/></svg>`,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="${starburst(50, 50, 12, 48, 26)}" fill="#F2994A"/><path d="${starburst(50, 50, 12, 34, 15)}" fill="#F5C451"/><circle cx="50" cy="50" r="11" fill="#fff"/></svg>`,
   );
 
 // Colores oficiales de los anfitriones FIFA 2026: USA azul, Canadá rojo, México verde.
@@ -76,6 +85,7 @@ export default function MapCanvas({
     const trails = focus ? tl.flights.filter((f) => f.code === focus) : trailFlights(tl, t);
     const clashes = activeClashes(tl, t).filter((c) => !focus || c.a.code === focus || c.b.code === focus);
     const tombs = graves(tl, t);
+    const booms = explosions(tl, t);
 
     // Reparte en abanico las banderas que comparten posición (bases o sede de partido)
     // para que se vea que hay varias concentradas, no una sola.
@@ -101,7 +111,7 @@ export default function MapCanvas({
 
     // Selecciones en reposo (no vuelan, no eliminadas): camita animada sobre la bandera.
     const resting = markers.filter((m) => !m.flying && !m.eliminated && (!focus || m.code === focus));
-    const bedSize = 21 + Math.sin(t * 5) * 1.8; // leve latido de sueño
+    const sleepSize = 16 + Math.sin(t * 5) * 1.3; // leve latido de sueño
 
     return [
       new ScatterplotLayer({
@@ -201,16 +211,33 @@ export default function MapCanvas({
         id: "resting",
         data: resting,
         getPosition: (d: TeamMarker) => d.pos,
-        getIcon: () => ({ id: "bed", url: BED, width: 44, height: 30, mask: false }),
-        getSize: bedSize,
+        getIcon: () => ({ id: "sleep", url: "/dormir.svg", width: 246, height: 246, mask: false }),
+        getSize: sleepSize,
         getPixelOffset: (d: TeamMarker) => {
           const [ox, oy] = offsets.get(d.code) ?? [0, 0];
           const bob = Math.sin(t * 12 + d.code.charCodeAt(0)) * 1.4;
-          return [ox + 15, oy - 17 + bob];
+          return [ox + 13, oy - 15 + bob];
         },
         sizeUnits: "pixels",
         billboard: true,
         updateTriggers: { getSize: t, getPixelOffset: [t, focus] },
+      }),
+      new IconLayer({
+        id: "explosions",
+        data: booms,
+        getPosition: (d) => d.elimCoords!,
+        getIcon: () => ({ id: "boom", url: EXPLO, width: 100, height: 100, mask: false }),
+        getSize: (d) => {
+          const f = Math.min(1, Math.max(0, (t - d.elimTime!) / EXPL_DUR));
+          return 14 + f * 46;
+        },
+        getColor: (d) => {
+          const f = Math.min(1, Math.max(0, (t - d.elimTime!) / EXPL_DUR));
+          return [255, 255, 255, Math.round(255 * (1 - f * f))];
+        },
+        sizeUnits: "pixels",
+        billboard: true,
+        updateTriggers: { getSize: t, getColor: t },
       }),
       new IconLayer({
         id: "graves",
