@@ -1,0 +1,149 @@
+{
+  "team": "Cabo Verde",
+  "code": "CPV",
+  "confederation": "CAF",
+  "baseCamp": "Tampa",
+  "baseCampFacility": "Waters Sportsplex",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    27.9506,
+    -82.4572
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Tampa",
+      "from_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 671.5,
+      "cumulative_km": 671.5,
+      "date": "2026-06-15",
+      "opponent": "ESP"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Tampa",
+      "to_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "stage": "Return",
+      "distance_km": 671.5,
+      "cumulative_km": 1343.0,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "Tampa",
+      "from_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Group",
+      "distance_km": 312.1,
+      "cumulative_km": 1655.1,
+      "date": "2026-06-21",
+      "opponent": "URU"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Tampa",
+      "to_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "stage": "Return",
+      "distance_km": 312.1,
+      "cumulative_km": 1967.2,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "Tampa",
+      "from_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1275.9,
+      "cumulative_km": 3243.1,
+      "date": "2026-06-26",
+      "opponent": "KSA"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Tampa",
+      "to_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "stage": "Return",
+      "distance_km": 1275.9,
+      "cumulative_km": 4519.0,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Tampa",
+      "from_coords": [
+        27.9506,
+        -82.4572
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Round32",
+      "distance_km": 312.1,
+      "cumulative_km": 4831.1,
+      "date": "2026-07-03",
+      "opponent": "ARG",
+      "result": "3-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 4831.1,
+    "group_stage_km": 4519.0,
+    "knockout_km": 312.1,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 690.2,
+    "longest_leg_km": 1275.9,
+    "shortest_leg_km": 312.1
+  }
+}

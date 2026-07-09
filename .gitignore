@@ -1,0 +1,23 @@
+# Dependencias
+**/node_modules/
+
+# Next.js
+wc2026_dataset/web/.next/
+wc2026_dataset/web/out/
+wc2026_dataset/web/build/
+wc2026_dataset/web/next-env.d.ts
+wc2026_dataset/web/.vercel/
+
+# Python
+__pycache__/
+*.pyc
+
+# Artefactos / temporales
+*.log
+.DS_Store
+wc2026_dataset.zip
+
+# Entorno
+.env
+.env.*
+!.env.example

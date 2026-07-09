@@ -1,0 +1,132 @@
+{
+  "team": "Turquia",
+  "code": "TUR",
+  "confederation": "UEFA",
+  "baseCamp": "Mesa",
+  "baseCampFacility": "Arizona Athletic Grounds",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    33.4152,
+    -111.8315
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Mesa",
+      "from_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1994.3,
+      "cumulative_km": 1994.3,
+      "date": "2026-06-13",
+      "opponent": "AUS"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Mesa",
+      "to_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "stage": "Return",
+      "distance_km": 1994.3,
+      "cumulative_km": 3988.6,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Mesa",
+      "from_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 1019.4,
+      "cumulative_km": 5008.0,
+      "date": "2026-06-19",
+      "opponent": "PAR"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Mesa",
+      "to_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "stage": "Return",
+      "distance_km": 1019.4,
+      "cumulative_km": 6027.4,
+      "date": "2026-06-19"
+    },
+    {
+      "from": "Mesa",
+      "from_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 605.0,
+      "cumulative_km": 6632.4,
+      "date": "2026-06-25",
+      "opponent": "USA"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Mesa",
+      "to_coords": [
+        33.4152,
+        -111.8315
+      ],
+      "stage": "Return",
+      "distance_km": 605.0,
+      "cumulative_km": 7237.4,
+      "date": "2026-06-25"
+    }
+  ],
+  "metrics": {
+    "total_km": 7237.4,
+    "group_stage_km": 7237.4,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1206.2,
+    "longest_leg_km": 1994.3,
+    "shortest_leg_km": 605.0
+  }
+}

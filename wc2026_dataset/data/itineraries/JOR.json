@@ -1,0 +1,131 @@
+{
+  "team": "Jordania",
+  "code": "JOR",
+  "confederation": "AFC",
+  "baseCamp": "Portland",
+  "baseCampFacility": "University of Portland",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    45.5152,
+    -122.6784
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Portland",
+      "from_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 903.9,
+      "cumulative_km": 903.9,
+      "date": "2026-06-17",
+      "opponent": "AUT"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Portland",
+      "to_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "stage": "Return",
+      "distance_km": 903.9,
+      "cumulative_km": 1807.8,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Portland",
+      "from_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 903.9,
+      "cumulative_km": 2711.7,
+      "date": "2026-06-22",
+      "opponent": "ALG"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Portland",
+      "to_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "stage": "Return",
+      "distance_km": 903.9,
+      "cumulative_km": 3615.6,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Portland",
+      "from_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 2606.2,
+      "cumulative_km": 6221.8,
+      "date": "2026-06-27",
+      "opponent": "ARG"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Portland",
+      "to_coords": [
+        45.5152,
+        -122.6784
+      ],
+      "stage": "Return",
+      "distance_km": 2606.2,
+      "cumulative_km": 8828.0,
+      "date": "2026-06-27"
+    }
+  ],
+  "metrics": {
+    "total_km": 8828.0,
+    "group_stage_km": 8828.0,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1471.3,
+    "longest_leg_km": 2606.2,
+    "shortest_leg_km": 903.9
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "team": "Brasil",
+  "code": "BRA",
+  "confederation": "CONMEBOL",
+  "baseCamp": "Morris Township",
+  "baseCampFacility": "Columbia Park Training Facility (NY Red Bulls)",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    40.7968,
+    -74.4815
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Octavos de final",
+  "stageReached": "Octavos de final",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Morris Township",
+      "from_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 34.3,
+      "cumulative_km": 34.3,
+      "date": "2026-06-13",
+      "opponent": "MAR"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Morris Township",
+      "to_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "stage": "Return",
+      "distance_km": 34.3,
+      "cumulative_km": 68.6,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Morris Township",
+      "from_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 115.3,
+      "cumulative_km": 183.9,
+      "date": "2026-06-19",
+      "opponent": "HAI"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Morris Township",
+      "to_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "stage": "Return",
+      "distance_km": 115.3,
+      "cumulative_km": 299.2,
+      "date": "2026-06-19"
+    },
+    {
+      "from": "Morris Township",
+      "from_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Group",
+      "distance_km": 1733.4,
+      "cumulative_km": 2032.6,
+      "date": "2026-06-24",
+      "opponent": "SCO"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Morris Township",
+      "to_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "stage": "Return",
+      "distance_km": 1733.4,
+      "cumulative_km": 3766.0,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Morris Township",
+      "from_coords": [
+        40.7968,
+        -74.4815
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Round32",
+      "distance_km": 2257.8,
+      "cumulative_km": 6023.8,
+      "date": "2026-06-29",
+      "opponent": "JPN",
+      "result": "2-1"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Round16",
+      "distance_km": 2289.3,
+      "cumulative_km": 8313.1,
+      "date": "2026-07-05",
+      "opponent": "NOR",
+      "result": "1-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 8313.1,
+    "group_stage_km": 3766.0,
+    "knockout_km": 4547.1,
+    "num_legs": 8,
+    "cities_visited": 5,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1039.1,
+    "longest_leg_km": 2289.3,
+    "shortest_leg_km": 34.3
+  }
+}

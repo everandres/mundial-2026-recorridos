@@ -1,0 +1,149 @@
+{
+  "team": "Austria",
+  "code": "AUT",
+  "confederation": "UEFA",
+  "baseCamp": "Goleta",
+  "baseCampFacility": "UC Santa Barbara - Harder Stadium",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    34.4358,
+    -119.8276
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Goleta",
+      "from_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 382.2,
+      "cumulative_km": 382.2,
+      "date": "2026-06-17",
+      "opponent": "JOR"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Goleta",
+      "to_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "stage": "Return",
+      "distance_km": 382.2,
+      "cumulative_km": 764.4,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Goleta",
+      "from_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 2109.6,
+      "cumulative_km": 2874.0,
+      "date": "2026-06-22",
+      "opponent": "ARG"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Goleta",
+      "to_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "stage": "Return",
+      "distance_km": 2109.6,
+      "cumulative_km": 4983.6,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Goleta",
+      "from_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 2307.7,
+      "cumulative_km": 7291.3,
+      "date": "2026-06-27",
+      "opponent": "ALG"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Goleta",
+      "to_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "stage": "Return",
+      "distance_km": 2307.7,
+      "cumulative_km": 9599.0,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Goleta",
+      "from_coords": [
+        34.4358,
+        -119.8276
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Round32",
+      "distance_km": 147.0,
+      "cumulative_km": 9746.0,
+      "date": "2026-07-02",
+      "opponent": "ESP",
+      "result": "3-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 9746.0,
+    "group_stage_km": 9599.0,
+    "knockout_km": 147.0,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1392.3,
+    "longest_leg_km": 2307.7,
+    "shortest_leg_km": 147.0
+  }
+}

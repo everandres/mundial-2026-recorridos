@@ -1,0 +1,132 @@
+{
+  "team": "Iran",
+  "code": "IRN",
+  "confederation": "AFC",
+  "baseCamp": "Tijuana",
+  "baseCampFacility": "Centro Xoloitzcuintle",
+  "baseCampCountry": "Mexico",
+  "baseCampCoords": [
+    32.5149,
+    -117.0382
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Tijuana",
+      "from_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 200.6,
+      "cumulative_km": 200.6,
+      "date": "2026-06-15",
+      "opponent": "NZL"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Tijuana",
+      "to_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "stage": "Return",
+      "distance_km": 200.6,
+      "cumulative_km": 401.2,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "Tijuana",
+      "from_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 200.6,
+      "cumulative_km": 601.8,
+      "date": "2026-06-21",
+      "opponent": "BEL"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Tijuana",
+      "to_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "stage": "Return",
+      "distance_km": 200.6,
+      "cumulative_km": 802.4,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "Tijuana",
+      "from_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 1735.2,
+      "cumulative_km": 2537.6,
+      "date": "2026-06-26",
+      "opponent": "EGY"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Tijuana",
+      "to_coords": [
+        32.5149,
+        -117.0382
+      ],
+      "stage": "Return",
+      "distance_km": 1735.2,
+      "cumulative_km": 4272.8,
+      "date": "2026-06-26"
+    }
+  ],
+  "metrics": {
+    "total_km": 4272.8,
+    "group_stage_km": 4272.8,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 712.1,
+    "longest_leg_km": 1735.2,
+    "shortest_leg_km": 200.6
+  }
+}

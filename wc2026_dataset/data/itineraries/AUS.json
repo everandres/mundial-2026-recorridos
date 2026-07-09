@@ -1,0 +1,150 @@
+{
+  "team": "Australia",
+  "code": "AUS",
+  "confederation": "AFC",
+  "baseCamp": "Oakland",
+  "baseCampFacility": "Oakland Roots & Soul SC",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    37.8044,
+    -122.2712
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Oakland",
+      "from_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1277.4,
+      "cumulative_km": 1277.4,
+      "date": "2026-06-13",
+      "opponent": "TUR"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Oakland",
+      "to_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "stage": "Return",
+      "distance_km": 1277.4,
+      "cumulative_km": 2554.8,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Oakland",
+      "from_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 1088.7,
+      "cumulative_km": 3643.5,
+      "date": "2026-06-19",
+      "opponent": "USA"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Oakland",
+      "to_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "stage": "Return",
+      "distance_km": 1088.7,
+      "cumulative_km": 4732.2,
+      "date": "2026-06-19"
+    },
+    {
+      "from": "Oakland",
+      "from_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 51.9,
+      "cumulative_km": 4784.1,
+      "date": "2026-06-25",
+      "opponent": "PAR"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Oakland",
+      "to_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "stage": "Return",
+      "distance_km": 51.9,
+      "cumulative_km": 4836.0,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Oakland",
+      "from_coords": [
+        37.8044,
+        -122.2712
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Round32",
+      "distance_km": 2345.8,
+      "cumulative_km": 7181.8,
+      "date": "2026-07-03",
+      "opponent": "EGY",
+      "result": "1-1 (pen)"
+    }
+  ],
+  "metrics": {
+    "total_km": 7181.8,
+    "group_stage_km": 4836.0,
+    "knockout_km": 2345.8,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1026.0,
+    "longest_leg_km": 2345.8,
+    "shortest_leg_km": 51.9
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "team": "Croacia",
+  "code": "CRO",
+  "confederation": "UEFA",
+  "baseCamp": "Alexandria",
+  "baseCampFacility": "Episcopal High School",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    38.8048,
+    -77.0469
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Alexandria",
+      "from_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 1924.9,
+      "cumulative_km": 1924.9,
+      "date": "2026-06-17",
+      "opponent": "ENG"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Alexandria",
+      "to_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "stage": "Return",
+      "distance_km": 1924.9,
+      "cumulative_km": 3849.8,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Alexandria",
+      "from_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 572.3,
+      "cumulative_km": 4422.1,
+      "date": "2026-06-23",
+      "opponent": "PAN"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Alexandria",
+      "to_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "stage": "Return",
+      "distance_km": 572.3,
+      "cumulative_km": 4994.4,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Alexandria",
+      "from_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 202.4,
+      "cumulative_km": 5196.8,
+      "date": "2026-06-27",
+      "opponent": "GHA"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Alexandria",
+      "to_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "stage": "Return",
+      "distance_km": 202.4,
+      "cumulative_km": 5399.2,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Alexandria",
+      "from_coords": [
+        38.8048,
+        -77.0469
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Round32",
+      "distance_km": 572.3,
+      "cumulative_km": 5971.5,
+      "date": "2026-07-02",
+      "opponent": "POR",
+      "result": "2-1"
+    }
+  ],
+  "metrics": {
+    "total_km": 5971.5,
+    "group_stage_km": 5399.2,
+    "knockout_km": 572.3,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 853.1,
+    "longest_leg_km": 1924.9,
+    "shortest_leg_km": 202.4
+  }
+}

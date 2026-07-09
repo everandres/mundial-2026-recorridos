@@ -1,0 +1,131 @@
+{
+  "team": "Escocia",
+  "code": "SCO",
+  "confederation": "UEFA",
+  "baseCamp": "Charlotte",
+  "baseCampFacility": "Charlotte FC Training Ground",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    35.2271,
+    -80.8431
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Charlotte",
+      "from_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 1127.5,
+      "cumulative_km": 1127.5,
+      "date": "2026-06-13",
+      "opponent": "HAI"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Charlotte",
+      "to_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "stage": "Return",
+      "distance_km": 1127.5,
+      "cumulative_km": 2255.0,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Charlotte",
+      "from_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 1127.5,
+      "cumulative_km": 3382.5,
+      "date": "2026-06-19",
+      "opponent": "MAR"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Charlotte",
+      "to_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "stage": "Return",
+      "distance_km": 1127.5,
+      "cumulative_km": 4510.0,
+      "date": "2026-06-19"
+    },
+    {
+      "from": "Charlotte",
+      "from_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Group",
+      "distance_km": 1032.3,
+      "cumulative_km": 5542.3,
+      "date": "2026-06-24",
+      "opponent": "BRA"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Charlotte",
+      "to_coords": [
+        35.2271,
+        -80.8431
+      ],
+      "stage": "Return",
+      "distance_km": 1032.3,
+      "cumulative_km": 6574.6,
+      "date": "2026-06-24"
+    }
+  ],
+  "metrics": {
+    "total_km": 6574.6,
+    "group_stage_km": 6574.6,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1095.8,
+    "longest_leg_km": 1127.5,
+    "shortest_leg_km": 1032.3
+  }
+}

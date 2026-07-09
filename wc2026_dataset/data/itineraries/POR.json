@@ -1,0 +1,168 @@
+{
+  "team": "Portugal",
+  "code": "POR",
+  "confederation": "UEFA",
+  "baseCamp": "Palm Beach Gardens",
+  "baseCampFacility": "Gardens North County District Park",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    26.8234,
+    -80.1387
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Octavos de final",
+  "stageReached": "Octavos de final",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Palm Beach Gardens",
+      "from_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1528.0,
+      "cumulative_km": 1528.0,
+      "date": "2026-06-17",
+      "opponent": "COD"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Palm Beach Gardens",
+      "to_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "stage": "Return",
+      "distance_km": 1528.0,
+      "cumulative_km": 3056.0,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Palm Beach Gardens",
+      "from_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1528.0,
+      "cumulative_km": 4584.0,
+      "date": "2026-06-23",
+      "opponent": "UZB"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Palm Beach Gardens",
+      "to_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "stage": "Return",
+      "distance_km": 1528.0,
+      "cumulative_km": 6112.0,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Palm Beach Gardens",
+      "from_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Group",
+      "distance_km": 96.7,
+      "cumulative_km": 6208.7,
+      "date": "2026-06-27",
+      "opponent": "COL"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Palm Beach Gardens",
+      "to_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "stage": "Return",
+      "distance_km": 96.7,
+      "cumulative_km": 6305.4,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Palm Beach Gardens",
+      "from_coords": [
+        26.8234,
+        -80.1387
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Round32",
+      "distance_km": 1870.3,
+      "cumulative_km": 8175.7,
+      "date": "2026-07-02",
+      "opponent": "CRO",
+      "result": "2-1"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Round16",
+      "distance_km": 1955.4,
+      "cumulative_km": 10131.1,
+      "date": "2026-07-06",
+      "opponent": "ESP",
+      "result": "0-1"
+    }
+  ],
+  "metrics": {
+    "total_km": 10131.1,
+    "group_stage_km": 6305.4,
+    "knockout_km": 3825.7,
+    "num_legs": 8,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1266.4,
+    "longest_leg_km": 1955.4,
+    "shortest_leg_km": 96.7
+  }
+}

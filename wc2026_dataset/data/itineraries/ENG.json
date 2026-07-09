@@ -1,0 +1,173 @@
+{
+  "team": "Inglaterra",
+  "code": "ENG",
+  "confederation": "UEFA",
+  "baseCamp": "Kansas City",
+  "baseCampFacility": "Swope Soccer Village",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    39.0489,
+    -94.4839
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-11",
+    "opponent": "NOR",
+    "city": "Miami"
+  },
+  "legs": [
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 739.0,
+      "cumulative_km": 739.0,
+      "date": "2026-06-17",
+      "opponent": "CRO"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 739.0,
+      "cumulative_km": 1478.0,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 1983.8,
+      "cumulative_km": 3461.8,
+      "date": "2026-06-23",
+      "opponent": "GHA"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 1983.8,
+      "cumulative_km": 5445.6,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 1747.3,
+      "cumulative_km": 7192.9,
+      "date": "2026-06-27",
+      "opponent": "PAN"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 1747.3,
+      "cumulative_km": 8940.2,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Round32",
+      "distance_km": 1076.4,
+      "cumulative_km": 10016.6,
+      "date": "2026-07-01",
+      "opponent": "COD",
+      "result": "2-1"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Round16",
+      "distance_km": 2171.0,
+      "cumulative_km": 12187.6,
+      "date": "2026-07-05",
+      "opponent": "MEX",
+      "result": "2-3"
+    }
+  ],
+  "metrics": {
+    "total_km": 12187.6,
+    "group_stage_km": 8940.2,
+    "knockout_km": 3247.4,
+    "num_legs": 8,
+    "cities_visited": 6,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1523.5,
+    "longest_leg_km": 2171.0,
+    "shortest_leg_km": 739.0
+  }
+}

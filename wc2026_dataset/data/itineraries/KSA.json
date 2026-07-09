@@ -1,0 +1,131 @@
+{
+  "team": "Arabia Saudita",
+  "code": "KSA",
+  "confederation": "AFC",
+  "baseCamp": "Austin",
+  "baseCampFacility": "Q2 Stadium (Austin FC)",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    30.2672,
+    -97.7431
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Austin",
+      "from_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Group",
+      "distance_km": 1780.2,
+      "cumulative_km": 1780.2,
+      "date": "2026-06-15",
+      "opponent": "URU"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Austin",
+      "to_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "stage": "Return",
+      "distance_km": 1780.2,
+      "cumulative_km": 3560.4,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "Austin",
+      "from_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 1315.3,
+      "cumulative_km": 4875.7,
+      "date": "2026-06-21",
+      "opponent": "ESP"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Austin",
+      "to_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "stage": "Return",
+      "distance_km": 1315.3,
+      "cumulative_km": 6191.0,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "Austin",
+      "from_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 233.8,
+      "cumulative_km": 6424.8,
+      "date": "2026-06-26",
+      "opponent": "CPV"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Austin",
+      "to_coords": [
+        30.2672,
+        -97.7431
+      ],
+      "stage": "Return",
+      "distance_km": 233.8,
+      "cumulative_km": 6658.6,
+      "date": "2026-06-26"
+    }
+  ],
+  "metrics": {
+    "total_km": 6658.6,
+    "group_stage_km": 6658.6,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1109.8,
+    "longest_leg_km": 1780.2,
+    "shortest_leg_km": 233.8
+  }
+}

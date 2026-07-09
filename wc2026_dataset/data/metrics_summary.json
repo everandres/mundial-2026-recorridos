@@ -1,0 +1,344 @@
+{
+  "generated": "2026-07-09",
+  "status": "Cuartos de final en curso",
+  "note": "Selecciones eliminadas: recorrido completo. Los 8 de cuartos (ARG, SUI, FRA, MAR, NOR, ENG, ESP, BEL): recorrido hasta octavos; cuartos aun no computados.",
+  "teams": 48,
+  "ranking_by_distance": [
+    {
+      "code": "ENG",
+      "team": "Inglaterra",
+      "total_km": 12187.6,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "CAN",
+      "team": "Canada",
+      "total_km": 10674.8,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "COL",
+      "team": "Colombia",
+      "total_km": 10575.5,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "BIH",
+      "team": "Bosnia y Herzegovina",
+      "total_km": 10455.6,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "ESP",
+      "team": "Espana",
+      "total_km": 10428.1,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "POR",
+      "team": "Portugal",
+      "total_km": 10131.1,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "CUW",
+      "team": "Curazao",
+      "total_km": 10118.0,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "AUT",
+      "team": "Austria",
+      "total_km": 9746.0,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "NOR",
+      "team": "Noruega",
+      "total_km": 9281.6,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "JOR",
+      "team": "Jordania",
+      "total_km": 8828.0,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "JPN",
+      "team": "Japon",
+      "total_km": 8616.4,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "BRA",
+      "team": "Brasil",
+      "total_km": 8313.1,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "CZE",
+      "team": "Chequia",
+      "total_km": 8285.4,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "RSA",
+      "team": "Sudafrica",
+      "total_km": 8092.3,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "NZL",
+      "team": "Nueva Zelanda",
+      "total_km": 7977.6,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "ECU",
+      "team": "Ecuador",
+      "total_km": 7605.0,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "SUI",
+      "team": "Suiza",
+      "total_km": 7431.9,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "ALG",
+      "team": "Argelia",
+      "total_km": 7414.2,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "GER",
+      "team": "Alemania",
+      "total_km": 7368.3,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "TUR",
+      "team": "Turquia",
+      "total_km": 7237.4,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "AUS",
+      "team": "Australia",
+      "total_km": 7181.8,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "QAT",
+      "team": "Catar",
+      "total_km": 7092.8,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "URU",
+      "team": "Uruguay",
+      "total_km": 7070.2,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "UZB",
+      "team": "Uzbekistan",
+      "total_km": 6664.2,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "KSA",
+      "team": "Arabia Saudita",
+      "total_km": 6658.6,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "MAR",
+      "team": "Marruecos",
+      "total_km": 6592.1,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "SCO",
+      "team": "Escocia",
+      "total_km": 6574.6,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "COD",
+      "team": "RD Congo",
+      "total_km": 5977.9,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "CRO",
+      "team": "Croacia",
+      "total_km": 5971.5,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "ARG",
+      "team": "Argentina",
+      "total_km": 5965.3,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "EGY",
+      "team": "Egipto",
+      "total_km": 5947.3,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "PAR",
+      "team": "Paraguay",
+      "total_km": 5736.6,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "NED",
+      "team": "Paises Bajos",
+      "total_km": 5149.5,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "USA",
+      "team": "Estados Unidos",
+      "total_km": 5099.9,
+      "stage": "Octavos de final",
+      "eliminated": true
+    },
+    {
+      "code": "SEN",
+      "team": "Senegal",
+      "total_km": 5080.5,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "SWE",
+      "team": "Suecia",
+      "total_km": 4894.4,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "CPV",
+      "team": "Cabo Verde",
+      "total_km": 4831.1,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "IRN",
+      "team": "Iran",
+      "total_km": 4272.8,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "IRQ",
+      "team": "Irak",
+      "total_km": 4121.2,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "GHA",
+      "team": "Ghana",
+      "total_km": 4115.3,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "BEL",
+      "team": "Belgica",
+      "total_km": 3543.8,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "TUN",
+      "team": "Tunez",
+      "total_km": 3326.0,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "CIV",
+      "team": "Costa de Marfil",
+      "total_km": 3241.3,
+      "stage": "Dieciseisavos",
+      "eliminated": true
+    },
+    {
+      "code": "HAI",
+      "team": "Haiti",
+      "total_km": 3120.2,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "FRA",
+      "team": "Francia",
+      "total_km": 1938.7,
+      "stage": "Cuartos de final",
+      "eliminated": false
+    },
+    {
+      "code": "PAN",
+      "team": "Panama",
+      "total_km": 1440.4,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "KOR",
+      "team": "Corea del Sur",
+      "total_km": 1289.4,
+      "stage": "Fase de grupos",
+      "eliminated": true
+    },
+    {
+      "code": "MEX",
+      "team": "Mexico",
+      "total_km": 951.8,
+      "stage": "Octavos de final",
+      "eliminated": true
+    }
+  ]
+}

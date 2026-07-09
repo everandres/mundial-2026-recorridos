@@ -1,0 +1,506 @@
+{
+  "Mexico City": {
+    "coords": [
+      19.303,
+      -99.1505
+    ],
+    "stadium": "Estadio Azteca",
+    "country": "Mexico",
+    "is_host_city": true
+  },
+  "Guadalajara": {
+    "coords": [
+      20.6819,
+      -103.4626
+    ],
+    "stadium": "Estadio Akron",
+    "country": "Mexico",
+    "is_host_city": true
+  },
+  "Monterrey": {
+    "coords": [
+      25.6694,
+      -100.2442
+    ],
+    "stadium": "Estadio BBVA",
+    "country": "Mexico",
+    "is_host_city": true
+  },
+  "Toronto": {
+    "coords": [
+      43.6332,
+      -79.4185
+    ],
+    "stadium": "BMO Field",
+    "country": "Canada",
+    "is_host_city": true
+  },
+  "Vancouver": {
+    "coords": [
+      49.2767,
+      -123.1119
+    ],
+    "stadium": "BC Place",
+    "country": "Canada",
+    "is_host_city": true
+  },
+  "Los Angeles": {
+    "coords": [
+      33.9535,
+      -118.3392
+    ],
+    "stadium": "SoFi Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Seattle": {
+    "coords": [
+      47.5952,
+      -122.3316
+    ],
+    "stadium": "Lumen Field",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "San Francisco Bay Area": {
+    "coords": [
+      37.4033,
+      -121.9694
+    ],
+    "stadium": "Levi's Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Boston": {
+    "coords": [
+      42.0909,
+      -71.2643
+    ],
+    "stadium": "Gillette Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Philadelphia": {
+    "coords": [
+      39.9008,
+      -75.1674
+    ],
+    "stadium": "Lincoln Financial Field",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "New York/New Jersey": {
+    "coords": [
+      40.8128,
+      -74.0742
+    ],
+    "stadium": "MetLife Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Atlanta": {
+    "coords": [
+      33.7553,
+      -84.4006
+    ],
+    "stadium": "Mercedes-Benz Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Miami": {
+    "coords": [
+      25.958,
+      -80.2389
+    ],
+    "stadium": "Hard Rock Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Dallas": {
+    "coords": [
+      32.7473,
+      -97.0945
+    ],
+    "stadium": "AT&T Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Houston": {
+    "coords": [
+      29.6847,
+      -95.4107
+    ],
+    "stadium": "NRG Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Kansas City": {
+    "coords": [
+      39.0489,
+      -94.4839
+    ],
+    "stadium": "Arrowhead Stadium",
+    "country": "USA",
+    "is_host_city": true
+  },
+  "Irvine": {
+    "coords": [
+      33.6846,
+      -117.8265
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Mesa": {
+    "coords": [
+      33.4152,
+      -111.8315
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Oakland": {
+    "coords": [
+      37.8044,
+      -122.2712
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "San Jose": {
+    "coords": [
+      37.3382,
+      -121.8863
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Santa Barbara": {
+    "coords": [
+      34.4208,
+      -119.6982
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Goleta": {
+    "coords": [
+      34.4358,
+      -119.8276
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "San Diego": {
+    "coords": [
+      32.7157,
+      -117.1611
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Tampa": {
+    "coords": [
+      27.9506,
+      -82.4572
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Boca Raton": {
+    "coords": [
+      26.3683,
+      -80.1289
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Palm Beach Gardens": {
+    "coords": [
+      26.8234,
+      -80.1387
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Marietta": {
+    "coords": [
+      33.9526,
+      -84.5499
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Kansas City KS": {
+    "coords": [
+      39.1235,
+      -94.825
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Lawrence": {
+    "coords": [
+      38.9717,
+      -95.2353
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Waltham": {
+    "coords": [
+      42.3765,
+      -71.2356
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Galloway": {
+    "coords": [
+      39.4901,
+      -74.4846
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Basking Ridge": {
+    "coords": [
+      40.7062,
+      -74.5493
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Piscataway": {
+    "coords": [
+      40.5549,
+      -74.4649
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Morris Township": {
+    "coords": [
+      40.7968,
+      -74.4815
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Greensboro": {
+    "coords": [
+      36.0726,
+      -79.792
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Winston-Salem": {
+    "coords": [
+      36.0999,
+      -80.2442
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Charlotte": {
+    "coords": [
+      35.2271,
+      -80.8431
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Columbus": {
+    "coords": [
+      39.9612,
+      -82.9988
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Portland": {
+    "coords": [
+      45.5152,
+      -122.6784
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Chester": {
+    "coords": [
+      39.8496,
+      -75.3557
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Smithfield": {
+    "coords": [
+      41.9223,
+      -71.549
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Nashville": {
+    "coords": [
+      36.1627,
+      -86.7816
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Chattanooga": {
+    "coords": [
+      35.0456,
+      -85.3097
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Austin": {
+    "coords": [
+      30.2672,
+      -97.7431
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Frisco": {
+    "coords": [
+      33.1507,
+      -96.8236
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Mansfield": {
+    "coords": [
+      32.5632,
+      -97.1417
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Sandy": {
+    "coords": [
+      40.5649,
+      -111.8389
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Alexandria": {
+    "coords": [
+      38.8048,
+      -77.0469
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Renton": {
+    "coords": [
+      47.4829,
+      -122.2171
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Spokane": {
+    "coords": [
+      47.6588,
+      -117.426
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "White Sulphur Springs": {
+    "coords": [
+      37.7973,
+      -80.299
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Tijuana": {
+    "coords": [
+      32.5149,
+      -117.0382
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Pachuca": {
+    "coords": [
+      20.1011,
+      -98.7591
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Santiago": {
+    "coords": [
+      25.4233,
+      -100.1517
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "Playa del Carmen": {
+    "coords": [
+      20.6296,
+      -87.0739
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  },
+  "New Tecumseth": {
+    "coords": [
+      44.1256,
+      -79.7876
+    ],
+    "stadium": null,
+    "country": "USA",
+    "is_host_city": false
+  }
+}

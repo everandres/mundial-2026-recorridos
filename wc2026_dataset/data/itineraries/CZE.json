@@ -1,0 +1,132 @@
+{
+  "team": "Chequia",
+  "code": "CZE",
+  "confederation": "UEFA",
+  "baseCamp": "Mansfield",
+  "baseCampFacility": "Mansfield Multipurpose Stadium",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    32.5632,
+    -97.1417
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Mansfield",
+      "from_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Group",
+      "distance_km": 1462.1,
+      "cumulative_km": 1462.1,
+      "date": "2026-06-11",
+      "opponent": "KOR"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Mansfield",
+      "to_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "stage": "Return",
+      "distance_km": 1462.1,
+      "cumulative_km": 2924.2,
+      "date": "2026-06-11"
+    },
+    {
+      "from": "Mansfield",
+      "from_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 1192.6,
+      "cumulative_km": 4116.8,
+      "date": "2026-06-18",
+      "opponent": "RSA"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Mansfield",
+      "to_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "stage": "Return",
+      "distance_km": 1192.6,
+      "cumulative_km": 5309.4,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Mansfield",
+      "from_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Group",
+      "distance_km": 1488.0,
+      "cumulative_km": 6797.4,
+      "date": "2026-06-24",
+      "opponent": "MEX"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mansfield",
+      "to_coords": [
+        32.5632,
+        -97.1417
+      ],
+      "stage": "Return",
+      "distance_km": 1488.0,
+      "cumulative_km": 8285.4,
+      "date": "2026-06-24"
+    }
+  ],
+  "metrics": {
+    "total_km": 8285.4,
+    "group_stage_km": 8285.4,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1380.9,
+    "longest_leg_km": 1488.0,
+    "shortest_leg_km": 1192.6
+  }
+}

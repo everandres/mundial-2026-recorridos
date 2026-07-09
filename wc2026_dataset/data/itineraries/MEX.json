@@ -1,0 +1,167 @@
+{
+  "team": "Mexico",
+  "code": "MEX",
+  "confederation": "CONCACAF",
+  "baseCamp": "Mexico City",
+  "baseCampFacility": "Centro de Alto Rendimiento (CAR)",
+  "baseCampCountry": "Mexico",
+  "baseCampCoords": [
+    19.303,
+    -99.1505
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Octavos de final",
+  "stageReached": "Octavos de final",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-11",
+      "opponent": "RSA"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-11"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Group",
+      "distance_km": 475.9,
+      "cumulative_km": 475.9,
+      "date": "2026-06-18",
+      "opponent": "KOR"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Return",
+      "distance_km": 475.9,
+      "cumulative_km": 951.8,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 951.8,
+      "date": "2026-06-24",
+      "opponent": "CZE"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 951.8,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Round32",
+      "distance_km": 0.0,
+      "cumulative_km": 951.8,
+      "date": "2026-06-30",
+      "opponent": "ECU",
+      "result": "2-0"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Round16",
+      "distance_km": 0.0,
+      "cumulative_km": 951.8,
+      "date": "2026-07-05",
+      "opponent": "ENG",
+      "result": "2-3"
+    }
+  ],
+  "metrics": {
+    "total_km": 951.8,
+    "group_stage_km": 951.8,
+    "knockout_km": 0.0,
+    "num_legs": 8,
+    "cities_visited": 2,
+    "countries_visited": 1,
+    "countries": [
+      "Mexico"
+    ],
+    "avg_leg_km": 119.0,
+    "longest_leg_km": 475.9,
+    "shortest_leg_km": 0.0
+  }
+}

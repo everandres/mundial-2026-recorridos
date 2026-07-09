@@ -1,0 +1,172 @@
+{
+  "team": "Suiza",
+  "code": "SUI",
+  "confederation": "UEFA",
+  "baseCamp": "San Diego",
+  "baseCampFacility": "San Diego Jewish Academy",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    32.7157,
+    -117.1611
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-11",
+    "opponent": "ARG",
+    "city": "Kansas City"
+  },
+  "legs": [
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 680.4,
+      "cumulative_km": 680.4,
+      "date": "2026-06-13",
+      "opponent": "QAT"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 680.4,
+      "cumulative_km": 1360.8,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 175.8,
+      "cumulative_km": 1536.6,
+      "date": "2026-06-18",
+      "opponent": "BIH"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 175.8,
+      "cumulative_km": 1712.4,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1906.5,
+      "cumulative_km": 3618.9,
+      "date": "2026-06-24",
+      "opponent": "CAN"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 1906.5,
+      "cumulative_km": 5525.4,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Round32",
+      "distance_km": 1906.5,
+      "cumulative_km": 7431.9,
+      "date": "2026-07-02",
+      "opponent": "ALG"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Round16",
+      "distance_km": 0.0,
+      "cumulative_km": 7431.9,
+      "date": "2026-07-07",
+      "opponent": "COL",
+      "result": "0-0 (5-4 pen)"
+    }
+  ],
+  "metrics": {
+    "total_km": 7431.9,
+    "group_stage_km": 5525.4,
+    "knockout_km": 1906.5,
+    "num_legs": 8,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 929.0,
+    "longest_leg_km": 1906.5,
+    "shortest_leg_km": 0.0
+  }
+}

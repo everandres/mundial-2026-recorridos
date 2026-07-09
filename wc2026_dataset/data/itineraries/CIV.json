@@ -1,0 +1,150 @@
+{
+  "team": "Costa de Marfil",
+  "code": "CIV",
+  "confederation": "CAF",
+  "baseCamp": "Chester",
+  "baseCampFacility": "Subaru Park (Philadelphia Union)",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    39.8496,
+    -75.3557
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Chester",
+      "from_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 17.0,
+      "cumulative_km": 17.0,
+      "date": "2026-06-14",
+      "opponent": "ECU"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Chester",
+      "to_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "stage": "Return",
+      "distance_km": 17.0,
+      "cumulative_km": 34.0,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Chester",
+      "from_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 539.0,
+      "cumulative_km": 573.0,
+      "date": "2026-06-20",
+      "opponent": "GER"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Chester",
+      "to_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "stage": "Return",
+      "distance_km": 539.0,
+      "cumulative_km": 1112.0,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Chester",
+      "from_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 17.0,
+      "cumulative_km": 1129.0,
+      "date": "2026-06-25",
+      "opponent": "CUW"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Chester",
+      "to_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "stage": "Return",
+      "distance_km": 17.0,
+      "cumulative_km": 1146.0,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Chester",
+      "from_coords": [
+        39.8496,
+        -75.3557
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Round32",
+      "distance_km": 2095.3,
+      "cumulative_km": 3241.3,
+      "date": "2026-06-30",
+      "opponent": "NOR",
+      "result": "1-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 3241.3,
+    "group_stage_km": 1146.0,
+    "knockout_km": 2095.3,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 463.0,
+    "longest_leg_km": 2095.3,
+    "shortest_leg_km": 17.0
+  }
+}

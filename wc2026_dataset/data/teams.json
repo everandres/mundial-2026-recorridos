@@ -1,0 +1,290 @@
+{
+  "MEX": {
+    "name": "Mexico",
+    "confederation": "CONCACAF",
+    "baseCamp": "Mexico City",
+    "facility": "Centro de Alto Rendimiento (CAR)"
+  },
+  "RSA": {
+    "name": "Sudafrica",
+    "confederation": "CAF",
+    "baseCamp": "Pachuca",
+    "facility": "CF Pachuca - Universidad del Futbol"
+  },
+  "KOR": {
+    "name": "Corea del Sur",
+    "confederation": "AFC",
+    "baseCamp": "Guadalajara",
+    "facility": "Chivas Verde Valle"
+  },
+  "CZE": {
+    "name": "Chequia",
+    "confederation": "UEFA",
+    "baseCamp": "Mansfield",
+    "facility": "Mansfield Multipurpose Stadium"
+  },
+  "CAN": {
+    "name": "Canada",
+    "confederation": "CONCACAF",
+    "baseCamp": "Vancouver",
+    "facility": "National Soccer Development Centre"
+  },
+  "SUI": {
+    "name": "Suiza",
+    "confederation": "UEFA",
+    "baseCamp": "San Diego",
+    "facility": "San Diego Jewish Academy"
+  },
+  "QAT": {
+    "name": "Catar",
+    "confederation": "AFC",
+    "baseCamp": "Santa Barbara",
+    "facility": "Westmont College"
+  },
+  "BIH": {
+    "name": "Bosnia y Herzegovina",
+    "confederation": "UEFA",
+    "baseCamp": "Sandy",
+    "facility": "Real Salt Lake facilities"
+  },
+  "BRA": {
+    "name": "Brasil",
+    "confederation": "CONMEBOL",
+    "baseCamp": "Morris Township",
+    "facility": "Columbia Park Training Facility (NY Red Bulls)"
+  },
+  "MAR": {
+    "name": "Marruecos",
+    "confederation": "CAF",
+    "baseCamp": "Basking Ridge",
+    "facility": "The Pingry School"
+  },
+  "SCO": {
+    "name": "Escocia",
+    "confederation": "UEFA",
+    "baseCamp": "Charlotte",
+    "facility": "Charlotte FC Training Ground"
+  },
+  "HAI": {
+    "name": "Haiti",
+    "confederation": "CONCACAF",
+    "baseCamp": "Galloway",
+    "facility": "Stockton University"
+  },
+  "USA": {
+    "name": "Estados Unidos",
+    "confederation": "CONCACAF",
+    "baseCamp": "Irvine",
+    "facility": "Great Park Sports Complex"
+  },
+  "AUS": {
+    "name": "Australia",
+    "confederation": "AFC",
+    "baseCamp": "Oakland",
+    "facility": "Oakland Roots & Soul SC"
+  },
+  "PAR": {
+    "name": "Paraguay",
+    "confederation": "CONMEBOL",
+    "baseCamp": "San Jose",
+    "facility": "San Jose State University"
+  },
+  "TUR": {
+    "name": "Turquia",
+    "confederation": "UEFA",
+    "baseCamp": "Mesa",
+    "facility": "Arizona Athletic Grounds"
+  },
+  "GER": {
+    "name": "Alemania",
+    "confederation": "UEFA",
+    "baseCamp": "Winston-Salem",
+    "facility": "Wake Forest University"
+  },
+  "ECU": {
+    "name": "Ecuador",
+    "confederation": "CONMEBOL",
+    "baseCamp": "Columbus",
+    "facility": "OhioHealth Performance Center (Columbus Crew)"
+  },
+  "CIV": {
+    "name": "Costa de Marfil",
+    "confederation": "CAF",
+    "baseCamp": "Chester",
+    "facility": "Subaru Park (Philadelphia Union)"
+  },
+  "CUW": {
+    "name": "Curazao",
+    "confederation": "CONCACAF",
+    "baseCamp": "Boca Raton",
+    "facility": "Florida Atlantic University"
+  },
+  "NED": {
+    "name": "Paises Bajos",
+    "confederation": "UEFA",
+    "baseCamp": "Kansas City",
+    "facility": "KC Current Training Facility"
+  },
+  "JPN": {
+    "name": "Japon",
+    "confederation": "AFC",
+    "baseCamp": "Nashville",
+    "facility": "Nashville SC Training Center"
+  },
+  "TUN": {
+    "name": "Tunez",
+    "confederation": "CAF",
+    "baseCamp": "Santiago",
+    "facility": "Rayados Training Center"
+  },
+  "SWE": {
+    "name": "Suecia",
+    "confederation": "UEFA",
+    "baseCamp": "Frisco",
+    "facility": "Toyota Stadium (FC Dallas)"
+  },
+  "BEL": {
+    "name": "Belgica",
+    "confederation": "UEFA",
+    "baseCamp": "Renton",
+    "facility": "Seattle Sounders Performance Center"
+  },
+  "IRN": {
+    "name": "Iran",
+    "confederation": "AFC",
+    "baseCamp": "Tijuana",
+    "facility": "Centro Xoloitzcuintle"
+  },
+  "EGY": {
+    "name": "Egipto",
+    "confederation": "CAF",
+    "baseCamp": "Spokane",
+    "facility": "Gonzaga University"
+  },
+  "NZL": {
+    "name": "Nueva Zelanda",
+    "confederation": "OFC",
+    "baseCamp": "San Diego",
+    "facility": "University of San Diego - Torero Stadium"
+  },
+  "ESP": {
+    "name": "Espana",
+    "confederation": "UEFA",
+    "baseCamp": "Chattanooga",
+    "facility": "Baylor School"
+  },
+  "URU": {
+    "name": "Uruguay",
+    "confederation": "CONMEBOL",
+    "baseCamp": "Playa del Carmen",
+    "facility": "Mayakoba Training Center"
+  },
+  "KSA": {
+    "name": "Arabia Saudita",
+    "confederation": "AFC",
+    "baseCamp": "Austin",
+    "facility": "Q2 Stadium (Austin FC)"
+  },
+  "CPV": {
+    "name": "Cabo Verde",
+    "confederation": "CAF",
+    "baseCamp": "Tampa",
+    "facility": "Waters Sportsplex"
+  },
+  "FRA": {
+    "name": "Francia",
+    "confederation": "UEFA",
+    "baseCamp": "Waltham",
+    "facility": "Bentley University"
+  },
+  "SEN": {
+    "name": "Senegal",
+    "confederation": "CAF",
+    "baseCamp": "Piscataway",
+    "facility": "Rutgers University"
+  },
+  "NOR": {
+    "name": "Noruega",
+    "confederation": "UEFA",
+    "baseCamp": "Greensboro",
+    "facility": "UNC Greensboro"
+  },
+  "IRQ": {
+    "name": "Irak",
+    "confederation": "AFC",
+    "baseCamp": "White Sulphur Springs",
+    "facility": "Greenbrier Sports Performance Center"
+  },
+  "ARG": {
+    "name": "Argentina",
+    "confederation": "CONMEBOL",
+    "baseCamp": "Kansas City KS",
+    "facility": "Sporting KC Training Center"
+  },
+  "AUT": {
+    "name": "Austria",
+    "confederation": "UEFA",
+    "baseCamp": "Goleta",
+    "facility": "UC Santa Barbara - Harder Stadium"
+  },
+  "ALG": {
+    "name": "Argelia",
+    "confederation": "CAF",
+    "baseCamp": "Lawrence",
+    "facility": "University of Kansas"
+  },
+  "JOR": {
+    "name": "Jordania",
+    "confederation": "AFC",
+    "baseCamp": "Portland",
+    "facility": "University of Portland"
+  },
+  "POR": {
+    "name": "Portugal",
+    "confederation": "UEFA",
+    "baseCamp": "Palm Beach Gardens",
+    "facility": "Gardens North County District Park"
+  },
+  "COL": {
+    "name": "Colombia",
+    "confederation": "CONMEBOL",
+    "baseCamp": "Guadalajara",
+    "facility": "Academia Atlas FC"
+  },
+  "UZB": {
+    "name": "Uzbekistan",
+    "confederation": "AFC",
+    "baseCamp": "Marietta",
+    "facility": "Atlanta United Training Center"
+  },
+  "COD": {
+    "name": "RD Congo",
+    "confederation": "CAF",
+    "baseCamp": "Houston",
+    "facility": "Houston Sports Park"
+  },
+  "ENG": {
+    "name": "Inglaterra",
+    "confederation": "UEFA",
+    "baseCamp": "Kansas City",
+    "facility": "Swope Soccer Village"
+  },
+  "CRO": {
+    "name": "Croacia",
+    "confederation": "UEFA",
+    "baseCamp": "Alexandria",
+    "facility": "Episcopal High School"
+  },
+  "PAN": {
+    "name": "Panama",
+    "confederation": "CONCACAF",
+    "baseCamp": "New Tecumseth",
+    "facility": "Nottawasaga Training Site"
+  },
+  "GHA": {
+    "name": "Ghana",
+    "confederation": "CAF",
+    "baseCamp": "Smithfield",
+    "facility": "Bryant University"
+  }
+}

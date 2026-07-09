@@ -1,0 +1,168 @@
+{
+  "team": "Canada",
+  "code": "CAN",
+  "confederation": "CONCACAF",
+  "baseCamp": "Vancouver",
+  "baseCampFacility": "National Soccer Development Centre",
+  "baseCampCountry": "Canada",
+  "baseCampCoords": [
+    49.2767,
+    -123.1119
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Octavos de final",
+  "stageReached": "Octavos de final",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 3356.8,
+      "cumulative_km": 3356.8,
+      "date": "2026-06-12",
+      "opponent": "BIH"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Return",
+      "distance_km": 3356.8,
+      "cumulative_km": 6713.6,
+      "date": "2026-06-12"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 6713.6,
+      "date": "2026-06-18",
+      "opponent": "QAT"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 6713.6,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 6713.6,
+      "date": "2026-06-24",
+      "opponent": "SUI"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 6713.6,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Round32",
+      "distance_km": 1748.5,
+      "cumulative_km": 8462.1,
+      "date": "2026-06-28",
+      "opponent": "RSA",
+      "result": "1-0"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Round16",
+      "distance_km": 2212.7,
+      "cumulative_km": 10674.8,
+      "date": "2026-07-04",
+      "opponent": "MAR",
+      "result": "0-3"
+    }
+  ],
+  "metrics": {
+    "total_km": 10674.8,
+    "group_stage_km": 6713.6,
+    "knockout_km": 3961.2,
+    "num_legs": 8,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1334.3,
+    "longest_leg_km": 3356.8,
+    "shortest_leg_km": 0.0
+  }
+}

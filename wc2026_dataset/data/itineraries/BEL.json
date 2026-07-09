@@ -1,0 +1,173 @@
+{
+  "team": "Belgica",
+  "code": "BEL",
+  "confederation": "UEFA",
+  "baseCamp": "Renton",
+  "baseCampFacility": "Seattle Sounders Performance Center",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    47.4829,
+    -122.2171
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-10",
+    "opponent": "ESP",
+    "city": "Los Angeles"
+  },
+  "legs": [
+    {
+      "from": "Renton",
+      "from_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 15.2,
+      "cumulative_km": 15.2,
+      "date": "2026-06-15",
+      "opponent": "EGY"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Renton",
+      "to_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "stage": "Return",
+      "distance_km": 15.2,
+      "cumulative_km": 30.4,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "Renton",
+      "from_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 1539.0,
+      "cumulative_km": 1569.4,
+      "date": "2026-06-21",
+      "opponent": "IRN"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Renton",
+      "to_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "stage": "Return",
+      "distance_km": 1539.0,
+      "cumulative_km": 3108.4,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "Renton",
+      "from_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 210.1,
+      "cumulative_km": 3318.5,
+      "date": "2026-06-26",
+      "opponent": "NZL"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Renton",
+      "to_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "stage": "Return",
+      "distance_km": 210.1,
+      "cumulative_km": 3528.6,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Renton",
+      "from_coords": [
+        47.4829,
+        -122.2171
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Round32",
+      "distance_km": 15.2,
+      "cumulative_km": 3543.8,
+      "date": "2026-07-01",
+      "opponent": "SEN",
+      "result": "3-2 (pr)"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Round16",
+      "distance_km": 0.0,
+      "cumulative_km": 3543.8,
+      "date": "2026-07-06",
+      "opponent": "USA",
+      "result": "1-4"
+    }
+  ],
+  "metrics": {
+    "total_km": 3543.8,
+    "group_stage_km": 3528.6,
+    "knockout_km": 15.2,
+    "num_legs": 8,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 443.0,
+    "longest_leg_km": 1539.0,
+    "shortest_leg_km": 0.0
+  }
+}

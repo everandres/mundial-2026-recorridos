@@ -1,0 +1,150 @@
+{
+  "team": "Bosnia y Herzegovina",
+  "code": "BIH",
+  "confederation": "UEFA",
+  "baseCamp": "Sandy",
+  "baseCampFacility": "Real Salt Lake facilities",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    40.5649,
+    -111.8389
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Sandy",
+      "from_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 2679.3,
+      "cumulative_km": 2679.3,
+      "date": "2026-06-12",
+      "opponent": "CAN"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Sandy",
+      "to_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "stage": "Return",
+      "distance_km": 2679.3,
+      "cumulative_km": 5358.6,
+      "date": "2026-06-12"
+    },
+    {
+      "from": "Sandy",
+      "from_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 932.9,
+      "cumulative_km": 6291.5,
+      "date": "2026-06-18",
+      "opponent": "SUI"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "Sandy",
+      "to_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "stage": "Return",
+      "distance_km": 932.9,
+      "cumulative_km": 7224.4,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Sandy",
+      "from_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 1144.2,
+      "cumulative_km": 8368.6,
+      "date": "2026-06-24",
+      "opponent": "QAT"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Sandy",
+      "to_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "stage": "Return",
+      "distance_km": 1144.2,
+      "cumulative_km": 9512.8,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Sandy",
+      "from_coords": [
+        40.5649,
+        -111.8389
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Round32",
+      "distance_km": 942.8,
+      "cumulative_km": 10455.6,
+      "date": "2026-07-01",
+      "opponent": "USA",
+      "result": "2-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 10455.6,
+    "group_stage_km": 9512.8,
+    "knockout_km": 942.8,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1493.7,
+    "longest_leg_km": 2679.3,
+    "shortest_leg_km": 932.9
+  }
+}

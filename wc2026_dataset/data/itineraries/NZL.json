@@ -1,0 +1,132 @@
+{
+  "team": "Nueva Zelanda",
+  "code": "NZL",
+  "confederation": "OFC",
+  "baseCamp": "San Diego",
+  "baseCampFacility": "University of San Diego - Torero Stadium",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    32.7157,
+    -117.1611
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Group",
+      "distance_km": 175.8,
+      "cumulative_km": 175.8,
+      "date": "2026-06-15",
+      "opponent": "IRN"
+    },
+    {
+      "from": "Los Angeles",
+      "from_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 175.8,
+      "cumulative_km": 351.6,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1906.5,
+      "cumulative_km": 2258.1,
+      "date": "2026-06-21",
+      "opponent": "EGY"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 1906.5,
+      "cumulative_km": 4164.6,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "San Diego",
+      "from_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1906.5,
+      "cumulative_km": 6071.1,
+      "date": "2026-06-26",
+      "opponent": "BEL"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "San Diego",
+      "to_coords": [
+        32.7157,
+        -117.1611
+      ],
+      "stage": "Return",
+      "distance_km": 1906.5,
+      "cumulative_km": 7977.6,
+      "date": "2026-06-26"
+    }
+  ],
+  "metrics": {
+    "total_km": 7977.6,
+    "group_stage_km": 7977.6,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1329.6,
+    "longest_leg_km": 1906.5,
+    "shortest_leg_km": 175.8
+  }
+}

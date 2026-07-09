@@ -1,0 +1,132 @@
+{
+  "team": "Uzbekistan",
+  "code": "UZB",
+  "confederation": "AFC",
+  "baseCamp": "Marietta",
+  "baseCampFacility": "Atlanta United Training Center",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    33.9526,
+    -84.5499
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Marietta",
+      "from_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Group",
+      "distance_km": 2176.5,
+      "cumulative_km": 2176.5,
+      "date": "2026-06-17",
+      "opponent": "COL"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Marietta",
+      "to_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "stage": "Return",
+      "distance_km": 2176.5,
+      "cumulative_km": 4353.0,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Marietta",
+      "from_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1129.7,
+      "cumulative_km": 5482.7,
+      "date": "2026-06-23",
+      "opponent": "POR"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Marietta",
+      "to_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "stage": "Return",
+      "distance_km": 1129.7,
+      "cumulative_km": 6612.4,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Marietta",
+      "from_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 25.9,
+      "cumulative_km": 6638.3,
+      "date": "2026-06-27",
+      "opponent": "COD"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Marietta",
+      "to_coords": [
+        33.9526,
+        -84.5499
+      ],
+      "stage": "Return",
+      "distance_km": 25.9,
+      "cumulative_km": 6664.2,
+      "date": "2026-06-27"
+    }
+  ],
+  "metrics": {
+    "total_km": 6664.2,
+    "group_stage_km": 6664.2,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1110.7,
+    "longest_leg_km": 2176.5,
+    "shortest_leg_km": 25.9
+  }
+}

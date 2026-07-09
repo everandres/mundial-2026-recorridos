@@ -1,0 +1,132 @@
+{
+  "team": "Panama",
+  "code": "PAN",
+  "confederation": "CONCACAF",
+  "baseCamp": "New Tecumseth",
+  "baseCampFacility": "Nottawasaga Training Site",
+  "baseCampCountry": "Canada",
+  "baseCampCoords": [
+    44.1256,
+    -79.7876
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "New Tecumseth",
+      "from_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 62.2,
+      "cumulative_km": 62.2,
+      "date": "2026-06-17",
+      "opponent": "GHA"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "New Tecumseth",
+      "to_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "stage": "Return",
+      "distance_km": 62.2,
+      "cumulative_km": 124.4,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "New Tecumseth",
+      "from_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 62.2,
+      "cumulative_km": 186.6,
+      "date": "2026-06-23",
+      "opponent": "CRO"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "New Tecumseth",
+      "to_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "stage": "Return",
+      "distance_km": 62.2,
+      "cumulative_km": 248.8,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "New Tecumseth",
+      "from_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 595.8,
+      "cumulative_km": 844.6,
+      "date": "2026-06-27",
+      "opponent": "ENG"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "New Tecumseth",
+      "to_coords": [
+        44.1256,
+        -79.7876
+      ],
+      "stage": "Return",
+      "distance_km": 595.8,
+      "cumulative_km": 1440.4,
+      "date": "2026-06-27"
+    }
+  ],
+  "metrics": {
+    "total_km": 1440.4,
+    "group_stage_km": 1440.4,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 240.1,
+    "longest_leg_km": 595.8,
+    "shortest_leg_km": 62.2
+  }
+}

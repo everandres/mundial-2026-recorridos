@@ -1,0 +1,130 @@
+{
+  "Mexico City": {
+    "stadium": "Estadio Azteca",
+    "coords": [
+      19.303,
+      -99.1505
+    ],
+    "country": "Mexico"
+  },
+  "Guadalajara": {
+    "stadium": "Estadio Akron",
+    "coords": [
+      20.6819,
+      -103.4626
+    ],
+    "country": "Mexico"
+  },
+  "Monterrey": {
+    "stadium": "Estadio BBVA",
+    "coords": [
+      25.6694,
+      -100.2442
+    ],
+    "country": "Mexico"
+  },
+  "Toronto": {
+    "stadium": "BMO Field",
+    "coords": [
+      43.6332,
+      -79.4185
+    ],
+    "country": "Canada"
+  },
+  "Vancouver": {
+    "stadium": "BC Place",
+    "coords": [
+      49.2767,
+      -123.1119
+    ],
+    "country": "Canada"
+  },
+  "Los Angeles": {
+    "stadium": "SoFi Stadium",
+    "coords": [
+      33.9535,
+      -118.3392
+    ],
+    "country": "USA"
+  },
+  "Seattle": {
+    "stadium": "Lumen Field",
+    "coords": [
+      47.5952,
+      -122.3316
+    ],
+    "country": "USA"
+  },
+  "San Francisco Bay Area": {
+    "stadium": "Levi's Stadium",
+    "coords": [
+      37.4033,
+      -121.9694
+    ],
+    "country": "USA"
+  },
+  "Boston": {
+    "stadium": "Gillette Stadium",
+    "coords": [
+      42.0909,
+      -71.2643
+    ],
+    "country": "USA"
+  },
+  "Philadelphia": {
+    "stadium": "Lincoln Financial Field",
+    "coords": [
+      39.9008,
+      -75.1674
+    ],
+    "country": "USA"
+  },
+  "New York/New Jersey": {
+    "stadium": "MetLife Stadium",
+    "coords": [
+      40.8128,
+      -74.0742
+    ],
+    "country": "USA"
+  },
+  "Atlanta": {
+    "stadium": "Mercedes-Benz Stadium",
+    "coords": [
+      33.7553,
+      -84.4006
+    ],
+    "country": "USA"
+  },
+  "Miami": {
+    "stadium": "Hard Rock Stadium",
+    "coords": [
+      25.958,
+      -80.2389
+    ],
+    "country": "USA"
+  },
+  "Dallas": {
+    "stadium": "AT&T Stadium",
+    "coords": [
+      32.7473,
+      -97.0945
+    ],
+    "country": "USA"
+  },
+  "Houston": {
+    "stadium": "NRG Stadium",
+    "coords": [
+      29.6847,
+      -95.4107
+    ],
+    "country": "USA"
+  },
+  "Kansas City": {
+    "stadium": "Arrowhead Stadium",
+    "coords": [
+      39.0489,
+      -94.4839
+    ],
+    "country": "USA"
+  }
+}

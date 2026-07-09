@@ -1,0 +1,150 @@
+{
+  "team": "Senegal",
+  "code": "SEN",
+  "confederation": "CAF",
+  "baseCamp": "Piscataway",
+  "baseCampFacility": "Rutgers University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    40.5549,
+    -74.4649
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Piscataway",
+      "from_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 43.7,
+      "cumulative_km": 43.7,
+      "date": "2026-06-16",
+      "opponent": "FRA"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Piscataway",
+      "to_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "stage": "Return",
+      "distance_km": 43.7,
+      "cumulative_km": 87.4,
+      "date": "2026-06-16"
+    },
+    {
+      "from": "Piscataway",
+      "from_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 43.7,
+      "cumulative_km": 131.1,
+      "date": "2026-06-22",
+      "opponent": "NOR"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Piscataway",
+      "to_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "stage": "Return",
+      "distance_km": 43.7,
+      "cumulative_km": 174.8,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Piscataway",
+      "from_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 533.0,
+      "cumulative_km": 707.8,
+      "date": "2026-06-26",
+      "opponent": "IRQ"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Piscataway",
+      "to_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "stage": "Return",
+      "distance_km": 533.0,
+      "cumulative_km": 1240.8,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Piscataway",
+      "from_coords": [
+        40.5549,
+        -74.4649
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Round32",
+      "distance_km": 3839.7,
+      "cumulative_km": 5080.5,
+      "date": "2026-07-01",
+      "opponent": "BEL",
+      "result": "3-2 (pr)"
+    }
+  ],
+  "metrics": {
+    "total_km": 5080.5,
+    "group_stage_km": 1240.8,
+    "knockout_km": 3839.7,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 725.8,
+    "longest_leg_km": 3839.7,
+    "shortest_leg_km": 43.7
+  }
+}

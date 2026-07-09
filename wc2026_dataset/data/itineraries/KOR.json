@@ -1,0 +1,131 @@
+{
+  "team": "Corea del Sur",
+  "code": "KOR",
+  "confederation": "AFC",
+  "baseCamp": "Guadalajara",
+  "baseCampFacility": "Chivas Verde Valle",
+  "baseCampCountry": "Mexico",
+  "baseCampCoords": [
+    20.6819,
+    -103.4626
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-11",
+      "opponent": "CZE"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-11"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-18",
+      "opponent": "MEX"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 644.7,
+      "cumulative_km": 644.7,
+      "date": "2026-06-24",
+      "opponent": "RSA"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Return",
+      "distance_km": 644.7,
+      "cumulative_km": 1289.4,
+      "date": "2026-06-24"
+    }
+  ],
+  "metrics": {
+    "total_km": 1289.4,
+    "group_stage_km": 1289.4,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 2,
+    "countries_visited": 1,
+    "countries": [
+      "Mexico"
+    ],
+    "avg_leg_km": 214.9,
+    "longest_leg_km": 644.7,
+    "shortest_leg_km": 0.0
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "team": "Noruega",
+  "code": "NOR",
+  "confederation": "UEFA",
+  "baseCamp": "Greensboro",
+  "baseCampFacility": "UNC Greensboro",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    36.0726,
+    -79.792
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-11",
+    "opponent": "ENG",
+    "city": "Miami"
+  },
+  "legs": [
+    {
+      "from": "Greensboro",
+      "from_coords": [
+        36.0726,
+        -79.792
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 993.9,
+      "cumulative_km": 993.9,
+      "date": "2026-06-16",
+      "opponent": "IRQ"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Greensboro",
+      "to_coords": [
+        36.0726,
+        -79.792
+      ],
+      "stage": "Return",
+      "distance_km": 993.9,
+      "cumulative_km": 1987.8,
+      "date": "2026-06-16"
+    },
+    {
+      "from": "Greensboro",
+      "from_coords": [
+        36.0726,
+        -79.792
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 724.8,
+      "cumulative_km": 2712.6,
+      "date": "2026-06-22",
+      "opponent": "SEN"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Greensboro",
+      "to_coords": [
+        36.0726,
+        -79.792
+      ],
+      "stage": "Return",
+      "distance_km": 724.8,
+      "cumulative_km": 3437.4,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Greensboro",
+      "from_coords": [
+        36.0726,
+        -79.792
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 993.9,
+      "cumulative_km": 4431.3,
+      "date": "2026-06-26",
+      "opponent": "FRA"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Greensboro",
+      "to_coords": [
+        36.0726,
+        -79.792
+      ],
+      "stage": "Return",
+      "distance_km": 993.9,
+      "cumulative_km": 5425.2,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Greensboro",
+      "from_coords": [
+        36.0726,
+        -79.792
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Round32",
+      "distance_km": 1627.4,
+      "cumulative_km": 7052.6,
+      "date": "2026-06-30",
+      "opponent": "CIV",
+      "result": "1-2"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Round16",
+      "distance_km": 2229.0,
+      "cumulative_km": 9281.6,
+      "date": "2026-07-05",
+      "opponent": "BRA",
+      "result": "1-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 9281.6,
+    "group_stage_km": 5425.2,
+    "knockout_km": 3856.4,
+    "num_legs": 8,
+    "cities_visited": 4,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1160.2,
+    "longest_leg_km": 2229.0,
+    "shortest_leg_km": 724.8
+  }
+}

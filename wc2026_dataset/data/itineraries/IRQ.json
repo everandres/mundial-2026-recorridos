@@ -1,0 +1,132 @@
+{
+  "team": "Irak",
+  "code": "IRQ",
+  "confederation": "AFC",
+  "baseCamp": "White Sulphur Springs",
+  "baseCampFacility": "Greenbrier Sports Performance Center",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    37.7973,
+    -80.299
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "White Sulphur Springs",
+      "from_coords": [
+        37.7973,
+        -80.299
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 905.4,
+      "cumulative_km": 905.4,
+      "date": "2026-06-16",
+      "opponent": "NOR"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "White Sulphur Springs",
+      "to_coords": [
+        37.7973,
+        -80.299
+      ],
+      "stage": "Return",
+      "distance_km": 905.4,
+      "cumulative_km": 1810.8,
+      "date": "2026-06-16"
+    },
+    {
+      "from": "White Sulphur Springs",
+      "from_coords": [
+        37.7973,
+        -80.299
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 502.1,
+      "cumulative_km": 2312.9,
+      "date": "2026-06-22",
+      "opponent": "FRA"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "White Sulphur Springs",
+      "to_coords": [
+        37.7973,
+        -80.299
+      ],
+      "stage": "Return",
+      "distance_km": 502.1,
+      "cumulative_km": 2815.0,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "White Sulphur Springs",
+      "from_coords": [
+        37.7973,
+        -80.299
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 653.1,
+      "cumulative_km": 3468.1,
+      "date": "2026-06-26",
+      "opponent": "SEN"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "White Sulphur Springs",
+      "to_coords": [
+        37.7973,
+        -80.299
+      ],
+      "stage": "Return",
+      "distance_km": 653.1,
+      "cumulative_km": 4121.2,
+      "date": "2026-06-26"
+    }
+  ],
+  "metrics": {
+    "total_km": 4121.2,
+    "group_stage_km": 4121.2,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 686.9,
+    "longest_leg_km": 905.4,
+    "shortest_leg_km": 502.1
+  }
+}

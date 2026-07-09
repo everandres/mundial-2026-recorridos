@@ -1,0 +1,150 @@
+{
+  "team": "Japon",
+  "code": "JPN",
+  "confederation": "AFC",
+  "baseCamp": "Nashville",
+  "baseCampFacility": "Nashville SC Training Center",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    36.1627,
+    -86.7816
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Nashville",
+      "from_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 1018.3,
+      "cumulative_km": 1018.3,
+      "date": "2026-06-14",
+      "opponent": "NED"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Nashville",
+      "to_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "stage": "Return",
+      "distance_km": 1018.3,
+      "cumulative_km": 2036.6,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Nashville",
+      "from_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 1731.8,
+      "cumulative_km": 3768.4,
+      "date": "2026-06-20",
+      "opponent": "TUN"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Nashville",
+      "to_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "stage": "Return",
+      "distance_km": 1731.8,
+      "cumulative_km": 5500.2,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Nashville",
+      "from_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 1018.3,
+      "cumulative_km": 6518.5,
+      "date": "2026-06-25",
+      "opponent": "SWE"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Nashville",
+      "to_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "stage": "Return",
+      "distance_km": 1018.3,
+      "cumulative_km": 7536.8,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Nashville",
+      "from_coords": [
+        36.1627,
+        -86.7816
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Round32",
+      "distance_km": 1079.6,
+      "cumulative_km": 8616.4,
+      "date": "2026-06-29",
+      "opponent": "BRA",
+      "result": "2-1"
+    }
+  ],
+  "metrics": {
+    "total_km": 8616.4,
+    "group_stage_km": 7536.8,
+    "knockout_km": 1079.6,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1230.9,
+    "longest_leg_km": 1731.8,
+    "shortest_leg_km": 1018.3
+  }
+}

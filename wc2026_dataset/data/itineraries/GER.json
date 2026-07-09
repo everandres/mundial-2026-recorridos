@@ -1,0 +1,150 @@
+{
+  "team": "Alemania",
+  "code": "GER",
+  "confederation": "UEFA",
+  "baseCamp": "Winston-Salem",
+  "baseCampFacility": "Wake Forest University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    36.0999,
+    -80.2442
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Winston-Salem",
+      "from_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1583.0,
+      "cumulative_km": 1583.0,
+      "date": "2026-06-14",
+      "opponent": "CUW"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Winston-Salem",
+      "to_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "stage": "Return",
+      "distance_km": 1583.0,
+      "cumulative_km": 3166.0,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Winston-Salem",
+      "from_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 840.6,
+      "cumulative_km": 4006.6,
+      "date": "2026-06-20",
+      "opponent": "CIV"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Winston-Salem",
+      "to_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "stage": "Return",
+      "distance_km": 840.6,
+      "cumulative_km": 4847.2,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Winston-Salem",
+      "from_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 750.1,
+      "cumulative_km": 5597.3,
+      "date": "2026-06-25",
+      "opponent": "ECU"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Winston-Salem",
+      "to_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "stage": "Return",
+      "distance_km": 750.1,
+      "cumulative_km": 6347.4,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Winston-Salem",
+      "from_coords": [
+        36.0999,
+        -80.2442
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Round32",
+      "distance_km": 1020.9,
+      "cumulative_km": 7368.3,
+      "date": "2026-06-29",
+      "opponent": "PAR",
+      "result": "1-1 (3-4 pen)"
+    }
+  ],
+  "metrics": {
+    "total_km": 7368.3,
+    "group_stage_km": 6347.4,
+    "knockout_km": 1020.9,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1052.6,
+    "longest_leg_km": 1583.0,
+    "shortest_leg_km": 750.1
+  }
+}

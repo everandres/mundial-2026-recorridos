@@ -1,0 +1,150 @@
+{
+  "team": "Ecuador",
+  "code": "ECU",
+  "confederation": "CONMEBOL",
+  "baseCamp": "Columbus",
+  "baseCampFacility": "OhioHealth Performance Center (Columbus Crew)",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    39.9612,
+    -82.9988
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Columbus",
+      "from_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 667.6,
+      "cumulative_km": 667.6,
+      "date": "2026-06-14",
+      "opponent": "CIV"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Columbus",
+      "to_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "stage": "Return",
+      "distance_km": 667.6,
+      "cumulative_km": 1335.2,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Columbus",
+      "from_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 989.9,
+      "cumulative_km": 2325.1,
+      "date": "2026-06-20",
+      "opponent": "CUW"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Columbus",
+      "to_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "stage": "Return",
+      "distance_km": 989.9,
+      "cumulative_km": 3315.0,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Columbus",
+      "from_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 761.4,
+      "cumulative_km": 4076.4,
+      "date": "2026-06-25",
+      "opponent": "GER"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Columbus",
+      "to_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "stage": "Return",
+      "distance_km": 761.4,
+      "cumulative_km": 4837.8,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Columbus",
+      "from_coords": [
+        39.9612,
+        -82.9988
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Round32",
+      "distance_km": 2767.2,
+      "cumulative_km": 7605.0,
+      "date": "2026-06-30",
+      "opponent": "MEX",
+      "result": "2-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 7605.0,
+    "group_stage_km": 4837.8,
+    "knockout_km": 2767.2,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1086.4,
+    "longest_leg_km": 2767.2,
+    "shortest_leg_km": 667.6
+  }
+}

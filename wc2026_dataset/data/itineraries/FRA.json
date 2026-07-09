@@ -1,0 +1,172 @@
+{
+  "team": "Francia",
+  "code": "FRA",
+  "confederation": "UEFA",
+  "baseCamp": "Waltham",
+  "baseCampFacility": "Bentley University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    42.3765,
+    -71.2356
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-09",
+    "opponent": "MAR",
+    "city": "Boston"
+  },
+  "legs": [
+    {
+      "from": "Waltham",
+      "from_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 293.2,
+      "cumulative_km": 293.2,
+      "date": "2026-06-16",
+      "opponent": "SEN"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Waltham",
+      "to_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "stage": "Return",
+      "distance_km": 293.2,
+      "cumulative_km": 586.4,
+      "date": "2026-06-16"
+    },
+    {
+      "from": "Waltham",
+      "from_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 429.1,
+      "cumulative_km": 1015.5,
+      "date": "2026-06-22",
+      "opponent": "IRQ"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Waltham",
+      "to_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "stage": "Return",
+      "distance_km": 429.1,
+      "cumulative_km": 1444.6,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Waltham",
+      "from_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 31.8,
+      "cumulative_km": 1476.4,
+      "date": "2026-06-26",
+      "opponent": "NOR"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Waltham",
+      "to_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "stage": "Return",
+      "distance_km": 31.8,
+      "cumulative_km": 1508.2,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Waltham",
+      "from_coords": [
+        42.3765,
+        -71.2356
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Round32",
+      "distance_km": 293.2,
+      "cumulative_km": 1801.4,
+      "date": "2026-06-30",
+      "opponent": "SWE",
+      "result": "3-0"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Round16",
+      "distance_km": 137.3,
+      "cumulative_km": 1938.7,
+      "date": "2026-07-04",
+      "opponent": "PAR",
+      "result": "0-1"
+    }
+  ],
+  "metrics": {
+    "total_km": 1938.7,
+    "group_stage_km": 1508.2,
+    "knockout_km": 430.5,
+    "num_legs": 8,
+    "cities_visited": 4,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 242.3,
+    "longest_leg_km": 429.1,
+    "shortest_leg_km": 31.8
+  }
+}

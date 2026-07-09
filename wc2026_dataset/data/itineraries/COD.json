@@ -1,0 +1,150 @@
+{
+  "team": "RD Congo",
+  "code": "COD",
+  "confederation": "CAF",
+  "baseCamp": "Houston",
+  "baseCampFacility": "Houston Sports Park",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    29.6847,
+    -95.4107
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-17",
+      "opponent": "POR"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 0.0,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Guadalajara",
+      "to_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "stage": "Group",
+      "distance_km": 1286.9,
+      "cumulative_km": 1286.9,
+      "date": "2026-06-23",
+      "opponent": "COL"
+    },
+    {
+      "from": "Guadalajara",
+      "from_coords": [
+        20.6819,
+        -103.4626
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Return",
+      "distance_km": 1286.9,
+      "cumulative_km": 2573.8,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 1134.7,
+      "cumulative_km": 3708.5,
+      "date": "2026-06-27",
+      "opponent": "UZB"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Return",
+      "distance_km": 1134.7,
+      "cumulative_km": 4843.2,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Round32",
+      "distance_km": 1134.7,
+      "cumulative_km": 5977.9,
+      "date": "2026-07-01",
+      "opponent": "ENG",
+      "result": "2-1"
+    }
+  ],
+  "metrics": {
+    "total_km": 5977.9,
+    "group_stage_km": 4843.2,
+    "knockout_km": 1134.7,
+    "num_legs": 7,
+    "cities_visited": 3,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 854.0,
+    "longest_leg_km": 1286.9,
+    "shortest_leg_km": 0.0
+  }
+}

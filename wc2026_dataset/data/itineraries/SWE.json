@@ -1,0 +1,150 @@
+{
+  "team": "Suecia",
+  "code": "SWE",
+  "confederation": "UEFA",
+  "baseCamp": "Frisco",
+  "baseCampFacility": "Toyota Stadium (FC Dallas)",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    33.1507,
+    -96.8236
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Frisco",
+      "from_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 895.3,
+      "cumulative_km": 895.3,
+      "date": "2026-06-14",
+      "opponent": "TUN"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Frisco",
+      "to_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "stage": "Return",
+      "distance_km": 895.3,
+      "cumulative_km": 1790.6,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Frisco",
+      "from_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 408.0,
+      "cumulative_km": 2198.6,
+      "date": "2026-06-20",
+      "opponent": "NED"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Frisco",
+      "to_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "stage": "Return",
+      "distance_km": 408.0,
+      "cumulative_km": 2606.6,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Frisco",
+      "from_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 51.5,
+      "cumulative_km": 2658.1,
+      "date": "2026-06-25",
+      "opponent": "JPN"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Frisco",
+      "to_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "stage": "Return",
+      "distance_km": 51.5,
+      "cumulative_km": 2709.6,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Frisco",
+      "from_coords": [
+        33.1507,
+        -96.8236
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Round32",
+      "distance_km": 2184.8,
+      "cumulative_km": 4894.4,
+      "date": "2026-06-30",
+      "opponent": "FRA",
+      "result": "3-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 4894.4,
+    "group_stage_km": 2709.6,
+    "knockout_km": 2184.8,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 699.2,
+    "longest_leg_km": 2184.8,
+    "shortest_leg_km": 51.5
+  }
+}

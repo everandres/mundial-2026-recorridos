@@ -1,0 +1,150 @@
+{
+  "team": "Paises Bajos",
+  "code": "NED",
+  "confederation": "UEFA",
+  "baseCamp": "Kansas City",
+  "baseCampFacility": "KC Current Training Facility",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    39.0489,
+    -94.4839
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 739.0,
+      "cumulative_km": 739.0,
+      "date": "2026-06-14",
+      "opponent": "JPN"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 739.0,
+      "cumulative_km": 1478.0,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1044.7,
+      "cumulative_km": 2522.7,
+      "date": "2026-06-20",
+      "opponent": "SWE"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 1044.7,
+      "cumulative_km": 3567.4,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 0.0,
+      "cumulative_km": 3567.4,
+      "date": "2026-06-25",
+      "opponent": "TUN"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Return",
+      "distance_km": 0.0,
+      "cumulative_km": 3567.4,
+      "date": "2026-06-25"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Round32",
+      "distance_km": 1582.1,
+      "cumulative_km": 5149.5,
+      "date": "2026-06-29",
+      "opponent": "MAR",
+      "result": "1-1 (2-3 pen)"
+    }
+  ],
+  "metrics": {
+    "total_km": 5149.5,
+    "group_stage_km": 3567.4,
+    "knockout_km": 1582.1,
+    "num_legs": 7,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 735.6,
+    "longest_leg_km": 1582.1,
+    "shortest_leg_km": 0.0
+  }
+}

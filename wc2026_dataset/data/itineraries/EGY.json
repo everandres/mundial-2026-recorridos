@@ -1,0 +1,168 @@
+{
+  "team": "Egipto",
+  "code": "EGY",
+  "confederation": "CAF",
+  "baseCamp": "Spokane",
+  "baseCampFacility": "Gonzaga University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    47.6588,
+    -117.426
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Octavos de final",
+  "stageReached": "Octavos de final",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Spokane",
+      "from_coords": [
+        47.6588,
+        -117.426
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 367.6,
+      "cumulative_km": 367.6,
+      "date": "2026-06-15",
+      "opponent": "BEL"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Spokane",
+      "to_coords": [
+        47.6588,
+        -117.426
+      ],
+      "stage": "Return",
+      "distance_km": 367.6,
+      "cumulative_km": 735.2,
+      "date": "2026-06-15"
+    },
+    {
+      "from": "Spokane",
+      "from_coords": [
+        47.6588,
+        -117.426
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 456.0,
+      "cumulative_km": 1191.2,
+      "date": "2026-06-21",
+      "opponent": "NZL"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Spokane",
+      "to_coords": [
+        47.6588,
+        -117.426
+      ],
+      "stage": "Return",
+      "distance_km": 456.0,
+      "cumulative_km": 1647.2,
+      "date": "2026-06-21"
+    },
+    {
+      "from": "Spokane",
+      "from_coords": [
+        47.6588,
+        -117.426
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 367.6,
+      "cumulative_km": 2014.8,
+      "date": "2026-06-26",
+      "opponent": "IRN"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Spokane",
+      "to_coords": [
+        47.6588,
+        -117.426
+      ],
+      "stage": "Return",
+      "distance_km": 367.6,
+      "cumulative_km": 2382.4,
+      "date": "2026-06-26"
+    },
+    {
+      "from": "Spokane",
+      "from_coords": [
+        47.6588,
+        -117.426
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Round32",
+      "distance_km": 2380.0,
+      "cumulative_km": 4762.4,
+      "date": "2026-07-03",
+      "opponent": "AUS",
+      "result": "1-1 (pen)"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Round16",
+      "distance_km": 1184.9,
+      "cumulative_km": 5947.3,
+      "date": "2026-07-07",
+      "opponent": "ARG",
+      "result": "3-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 5947.3,
+    "group_stage_km": 2382.4,
+    "knockout_km": 3564.9,
+    "num_legs": 8,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 743.4,
+    "longest_leg_km": 2380.0,
+    "shortest_leg_km": 367.6
+  }
+}

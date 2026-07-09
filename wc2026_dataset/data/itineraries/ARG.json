@@ -1,0 +1,172 @@
+{
+  "team": "Argentina",
+  "code": "ARG",
+  "confederation": "CONMEBOL",
+  "baseCamp": "Kansas City KS",
+  "baseCampFacility": "Sporting KC Training Center",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    39.1235,
+    -94.825
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-11",
+    "opponent": "SUI",
+    "city": "Kansas City"
+  },
+  "legs": [
+    {
+      "from": "Kansas City KS",
+      "from_coords": [
+        39.1235,
+        -94.825
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 30.6,
+      "cumulative_km": 30.6,
+      "date": "2026-06-16",
+      "opponent": "ALG"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Kansas City KS",
+      "to_coords": [
+        39.1235,
+        -94.825
+      ],
+      "stage": "Return",
+      "distance_km": 30.6,
+      "cumulative_km": 61.2,
+      "date": "2026-06-16"
+    },
+    {
+      "from": "Kansas City KS",
+      "from_coords": [
+        39.1235,
+        -94.825
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 737.8,
+      "cumulative_km": 799.0,
+      "date": "2026-06-22",
+      "opponent": "AUT"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Kansas City KS",
+      "to_coords": [
+        39.1235,
+        -94.825
+      ],
+      "stage": "Return",
+      "distance_km": 737.8,
+      "cumulative_km": 1536.8,
+      "date": "2026-06-22"
+    },
+    {
+      "from": "Kansas City KS",
+      "from_coords": [
+        39.1235,
+        -94.825
+      ],
+      "to": "Dallas",
+      "to_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "stage": "Group",
+      "distance_km": 737.8,
+      "cumulative_km": 2274.6,
+      "date": "2026-06-27",
+      "opponent": "JOR"
+    },
+    {
+      "from": "Dallas",
+      "from_coords": [
+        32.7473,
+        -97.0945
+      ],
+      "to": "Kansas City KS",
+      "to_coords": [
+        39.1235,
+        -94.825
+      ],
+      "stage": "Return",
+      "distance_km": 737.8,
+      "cumulative_km": 3012.4,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Kansas City KS",
+      "from_coords": [
+        39.1235,
+        -94.825
+      ],
+      "to": "Miami",
+      "to_coords": [
+        25.958,
+        -80.2389
+      ],
+      "stage": "Round32",
+      "distance_km": 1997.8,
+      "cumulative_km": 5010.2,
+      "date": "2026-07-03",
+      "opponent": "CPV",
+      "result": "3-2"
+    },
+    {
+      "from": "Miami",
+      "from_coords": [
+        25.958,
+        -80.2389
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Round16",
+      "distance_km": 955.1,
+      "cumulative_km": 5965.3,
+      "date": "2026-07-07",
+      "opponent": "EGY",
+      "result": "3-2"
+    }
+  ],
+  "metrics": {
+    "total_km": 5965.3,
+    "group_stage_km": 3012.4,
+    "knockout_km": 2952.9,
+    "num_legs": 8,
+    "cities_visited": 5,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 745.7,
+    "longest_leg_km": 1997.8,
+    "shortest_leg_km": 30.6
+  }
+}

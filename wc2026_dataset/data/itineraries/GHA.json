@@ -1,0 +1,150 @@
+{
+  "team": "Ghana",
+  "code": "GHA",
+  "confederation": "CAF",
+  "baseCamp": "Smithfield",
+  "baseCampFacility": "Bryant University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    41.9223,
+    -71.549
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Smithfield",
+      "from_coords": [
+        41.9223,
+        -71.549
+      ],
+      "to": "Toronto",
+      "to_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "stage": "Group",
+      "distance_km": 669.6,
+      "cumulative_km": 669.6,
+      "date": "2026-06-17",
+      "opponent": "PAN"
+    },
+    {
+      "from": "Toronto",
+      "from_coords": [
+        43.6332,
+        -79.4185
+      ],
+      "to": "Smithfield",
+      "to_coords": [
+        41.9223,
+        -71.549
+      ],
+      "stage": "Return",
+      "distance_km": 669.6,
+      "cumulative_km": 1339.2,
+      "date": "2026-06-17"
+    },
+    {
+      "from": "Smithfield",
+      "from_coords": [
+        41.9223,
+        -71.549
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 30.1,
+      "cumulative_km": 1369.3,
+      "date": "2026-06-23",
+      "opponent": "ENG"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Smithfield",
+      "to_coords": [
+        41.9223,
+        -71.549
+      ],
+      "stage": "Return",
+      "distance_km": 30.1,
+      "cumulative_km": 1399.4,
+      "date": "2026-06-23"
+    },
+    {
+      "from": "Smithfield",
+      "from_coords": [
+        41.9223,
+        -71.549
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 378.1,
+      "cumulative_km": 1777.5,
+      "date": "2026-06-27",
+      "opponent": "CRO"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Smithfield",
+      "to_coords": [
+        41.9223,
+        -71.549
+      ],
+      "stage": "Return",
+      "distance_km": 378.1,
+      "cumulative_km": 2155.6,
+      "date": "2026-06-27"
+    },
+    {
+      "from": "Smithfield",
+      "from_coords": [
+        41.9223,
+        -71.549
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Round32",
+      "distance_km": 1959.7,
+      "cumulative_km": 4115.3,
+      "date": "2026-07-03",
+      "opponent": "COL",
+      "result": "1-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 4115.3,
+    "group_stage_km": 2155.6,
+    "knockout_km": 1959.7,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 587.9,
+    "longest_leg_km": 1959.7,
+    "shortest_leg_km": 30.1
+  }
+}

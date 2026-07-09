@@ -1,0 +1,132 @@
+{
+  "team": "Tunez",
+  "code": "TUN",
+  "confederation": "CAF",
+  "baseCamp": "Santiago",
+  "baseCampFacility": "Rayados Training Center",
+  "baseCampCountry": "Mexico",
+  "baseCampCoords": [
+    25.4233,
+    -100.1517
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Santiago",
+      "from_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 28.9,
+      "cumulative_km": 28.9,
+      "date": "2026-06-14",
+      "opponent": "SWE"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Santiago",
+      "to_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "stage": "Return",
+      "distance_km": 28.9,
+      "cumulative_km": 57.8,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Santiago",
+      "from_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 28.9,
+      "cumulative_km": 86.7,
+      "date": "2026-06-20",
+      "opponent": "JPN"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Santiago",
+      "to_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "stage": "Return",
+      "distance_km": 28.9,
+      "cumulative_km": 115.6,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Santiago",
+      "from_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 1605.2,
+      "cumulative_km": 1720.8,
+      "date": "2026-06-25",
+      "opponent": "NED"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Santiago",
+      "to_coords": [
+        25.4233,
+        -100.1517
+      ],
+      "stage": "Return",
+      "distance_km": 1605.2,
+      "cumulative_km": 3326.0,
+      "date": "2026-06-25"
+    }
+  ],
+  "metrics": {
+    "total_km": 3326.0,
+    "group_stage_km": 3326.0,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 3,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 554.3,
+    "longest_leg_km": 1605.2,
+    "shortest_leg_km": 28.9
+  }
+}

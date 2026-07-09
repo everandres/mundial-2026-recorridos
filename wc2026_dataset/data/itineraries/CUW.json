@@ -1,0 +1,131 @@
+{
+  "team": "Curazao",
+  "code": "CUW",
+  "confederation": "CONCACAF",
+  "baseCamp": "Boca Raton",
+  "baseCampFacility": "Florida Atlantic University",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    26.3683,
+    -80.1289
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Boca Raton",
+      "from_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Group",
+      "distance_km": 1543.3,
+      "cumulative_km": 1543.3,
+      "date": "2026-06-14",
+      "opponent": "GER"
+    },
+    {
+      "from": "Houston",
+      "from_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "to": "Boca Raton",
+      "to_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "stage": "Return",
+      "distance_km": 1543.3,
+      "cumulative_km": 3086.6,
+      "date": "2026-06-14"
+    },
+    {
+      "from": "Boca Raton",
+      "from_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "to": "Kansas City",
+      "to_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "stage": "Group",
+      "distance_km": 1942.4,
+      "cumulative_km": 5029.0,
+      "date": "2026-06-20",
+      "opponent": "ECU"
+    },
+    {
+      "from": "Kansas City",
+      "from_coords": [
+        39.0489,
+        -94.4839
+      ],
+      "to": "Boca Raton",
+      "to_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "stage": "Return",
+      "distance_km": 1942.4,
+      "cumulative_km": 6971.4,
+      "date": "2026-06-20"
+    },
+    {
+      "from": "Boca Raton",
+      "from_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "to": "Philadelphia",
+      "to_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "stage": "Group",
+      "distance_km": 1573.3,
+      "cumulative_km": 8544.7,
+      "date": "2026-06-25",
+      "opponent": "CIV"
+    },
+    {
+      "from": "Philadelphia",
+      "from_coords": [
+        39.9008,
+        -75.1674
+      ],
+      "to": "Boca Raton",
+      "to_coords": [
+        26.3683,
+        -80.1289
+      ],
+      "stage": "Return",
+      "distance_km": 1573.3,
+      "cumulative_km": 10118.0,
+      "date": "2026-06-25"
+    }
+  ],
+  "metrics": {
+    "total_km": 10118.0,
+    "group_stage_km": 10118.0,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 1,
+    "countries": [
+      "USA"
+    ],
+    "avg_leg_km": 1686.3,
+    "longest_leg_km": 1942.4,
+    "shortest_leg_km": 1543.3
+  }
+}

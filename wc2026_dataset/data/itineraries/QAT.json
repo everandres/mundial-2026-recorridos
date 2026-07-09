@@ -1,0 +1,132 @@
+{
+  "team": "Catar",
+  "code": "QAT",
+  "confederation": "AFC",
+  "baseCamp": "Santa Barbara",
+  "baseCampFacility": "Westmont College",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    34.4208,
+    -119.6982
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Fase de grupos",
+  "stageReached": "Fase de grupos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Santa Barbara",
+      "from_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "to": "San Francisco Bay Area",
+      "to_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "stage": "Group",
+      "distance_km": 389.6,
+      "cumulative_km": 389.6,
+      "date": "2026-06-13",
+      "opponent": "SUI"
+    },
+    {
+      "from": "San Francisco Bay Area",
+      "from_coords": [
+        37.4033,
+        -121.9694
+      ],
+      "to": "Santa Barbara",
+      "to_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "stage": "Return",
+      "distance_km": 389.6,
+      "cumulative_km": 779.2,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Santa Barbara",
+      "from_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "to": "Vancouver",
+      "to_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "stage": "Group",
+      "distance_km": 1675.5,
+      "cumulative_km": 2454.7,
+      "date": "2026-06-18",
+      "opponent": "CAN"
+    },
+    {
+      "from": "Vancouver",
+      "from_coords": [
+        49.2767,
+        -123.1119
+      ],
+      "to": "Santa Barbara",
+      "to_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "stage": "Return",
+      "distance_km": 1675.5,
+      "cumulative_km": 4130.2,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Santa Barbara",
+      "from_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "to": "Seattle",
+      "to_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "stage": "Group",
+      "distance_km": 1481.3,
+      "cumulative_km": 5611.5,
+      "date": "2026-06-24",
+      "opponent": "BIH"
+    },
+    {
+      "from": "Seattle",
+      "from_coords": [
+        47.5952,
+        -122.3316
+      ],
+      "to": "Santa Barbara",
+      "to_coords": [
+        34.4208,
+        -119.6982
+      ],
+      "stage": "Return",
+      "distance_km": 1481.3,
+      "cumulative_km": 7092.8,
+      "date": "2026-06-24"
+    }
+  ],
+  "metrics": {
+    "total_km": 7092.8,
+    "group_stage_km": 7092.8,
+    "knockout_km": 0.0,
+    "num_legs": 6,
+    "cities_visited": 4,
+    "countries_visited": 2,
+    "countries": [
+      "Canada",
+      "USA"
+    ],
+    "avg_leg_km": 1182.1,
+    "longest_leg_km": 1675.5,
+    "shortest_leg_km": 389.6
+  }
+}

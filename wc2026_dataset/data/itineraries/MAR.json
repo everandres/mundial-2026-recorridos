@@ -1,0 +1,173 @@
+{
+  "team": "Marruecos",
+  "code": "MAR",
+  "confederation": "CAF",
+  "baseCamp": "Basking Ridge",
+  "baseCampFacility": "The Pingry School",
+  "baseCampCountry": "USA",
+  "baseCampCoords": [
+    40.7062,
+    -74.5493
+  ],
+  "eliminated": false,
+  "eliminatedRound": null,
+  "stageReached": "Cuartos de final",
+  "nextMatch": {
+    "round": "Quarterfinal",
+    "date": "2026-07-09",
+    "opponent": "FRA",
+    "city": "Boston"
+  },
+  "legs": [
+    {
+      "from": "Basking Ridge",
+      "from_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "to": "New York/New Jersey",
+      "to_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "stage": "Group",
+      "distance_km": 41.7,
+      "cumulative_km": 41.7,
+      "date": "2026-06-13",
+      "opponent": "BRA"
+    },
+    {
+      "from": "New York/New Jersey",
+      "from_coords": [
+        40.8128,
+        -74.0742
+      ],
+      "to": "Basking Ridge",
+      "to_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "stage": "Return",
+      "distance_km": 41.7,
+      "cumulative_km": 83.4,
+      "date": "2026-06-13"
+    },
+    {
+      "from": "Basking Ridge",
+      "from_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "to": "Boston",
+      "to_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "stage": "Group",
+      "distance_km": 314.3,
+      "cumulative_km": 397.7,
+      "date": "2026-06-19",
+      "opponent": "SCO"
+    },
+    {
+      "from": "Boston",
+      "from_coords": [
+        42.0909,
+        -71.2643
+      ],
+      "to": "Basking Ridge",
+      "to_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "stage": "Return",
+      "distance_km": 314.3,
+      "cumulative_km": 712.0,
+      "date": "2026-06-19"
+    },
+    {
+      "from": "Basking Ridge",
+      "from_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 1164.0,
+      "cumulative_km": 1876.0,
+      "date": "2026-06-24",
+      "opponent": "HAI"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Basking Ridge",
+      "to_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "stage": "Return",
+      "distance_km": 1164.0,
+      "cumulative_km": 3040.0,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Basking Ridge",
+      "from_coords": [
+        40.7062,
+        -74.5493
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Round32",
+      "distance_km": 2899.7,
+      "cumulative_km": 5939.7,
+      "date": "2026-06-29",
+      "opponent": "NED",
+      "result": "1-1 (2-3 pen)"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Houston",
+      "to_coords": [
+        29.6847,
+        -95.4107
+      ],
+      "stage": "Round16",
+      "distance_km": 652.4,
+      "cumulative_km": 6592.1,
+      "date": "2026-07-04",
+      "opponent": "CAN",
+      "result": "0-3"
+    }
+  ],
+  "metrics": {
+    "total_km": 6592.1,
+    "group_stage_km": 3040.0,
+    "knockout_km": 3552.1,
+    "num_legs": 8,
+    "cities_visited": 6,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 824.0,
+    "longest_leg_km": 2899.7,
+    "shortest_leg_km": 41.7
+  }
+}

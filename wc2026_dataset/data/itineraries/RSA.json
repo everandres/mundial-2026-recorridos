@@ -1,0 +1,150 @@
+{
+  "team": "Sudafrica",
+  "code": "RSA",
+  "confederation": "CAF",
+  "baseCamp": "Pachuca",
+  "baseCampFacility": "CF Pachuca - Universidad del Futbol",
+  "baseCampCountry": "Mexico",
+  "baseCampCoords": [
+    20.1011,
+    -98.7591
+  ],
+  "eliminated": true,
+  "eliminatedRound": "Dieciseisavos",
+  "stageReached": "Dieciseisavos",
+  "nextMatch": null,
+  "legs": [
+    {
+      "from": "Pachuca",
+      "from_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "to": "Mexico City",
+      "to_coords": [
+        19.303,
+        -99.1505
+      ],
+      "stage": "Group",
+      "distance_km": 97.7,
+      "cumulative_km": 97.7,
+      "date": "2026-06-11",
+      "opponent": "MEX"
+    },
+    {
+      "from": "Mexico City",
+      "from_coords": [
+        19.303,
+        -99.1505
+      ],
+      "to": "Pachuca",
+      "to_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "stage": "Return",
+      "distance_km": 97.7,
+      "cumulative_km": 195.4,
+      "date": "2026-06-11"
+    },
+    {
+      "from": "Pachuca",
+      "from_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "to": "Atlanta",
+      "to_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "stage": "Group",
+      "distance_km": 2076.6,
+      "cumulative_km": 2272.0,
+      "date": "2026-06-18",
+      "opponent": "CZE"
+    },
+    {
+      "from": "Atlanta",
+      "from_coords": [
+        33.7553,
+        -84.4006
+      ],
+      "to": "Pachuca",
+      "to_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "stage": "Return",
+      "distance_km": 2076.6,
+      "cumulative_km": 4348.6,
+      "date": "2026-06-18"
+    },
+    {
+      "from": "Pachuca",
+      "from_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "to": "Monterrey",
+      "to_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "stage": "Group",
+      "distance_km": 637.6,
+      "cumulative_km": 4986.2,
+      "date": "2026-06-24",
+      "opponent": "KOR"
+    },
+    {
+      "from": "Monterrey",
+      "from_coords": [
+        25.6694,
+        -100.2442
+      ],
+      "to": "Pachuca",
+      "to_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "stage": "Return",
+      "distance_km": 637.6,
+      "cumulative_km": 5623.8,
+      "date": "2026-06-24"
+    },
+    {
+      "from": "Pachuca",
+      "from_coords": [
+        20.1011,
+        -98.7591
+      ],
+      "to": "Los Angeles",
+      "to_coords": [
+        33.9535,
+        -118.3392
+      ],
+      "stage": "Round32",
+      "distance_km": 2468.5,
+      "cumulative_km": 8092.3,
+      "date": "2026-06-28",
+      "opponent": "CAN",
+      "result": "1-0"
+    }
+  ],
+  "metrics": {
+    "total_km": 8092.3,
+    "group_stage_km": 5623.8,
+    "knockout_km": 2468.5,
+    "num_legs": 7,
+    "cities_visited": 5,
+    "countries_visited": 2,
+    "countries": [
+      "Mexico",
+      "USA"
+    ],
+    "avg_leg_km": 1156.0,
+    "longest_leg_km": 2468.5,
+    "shortest_leg_km": 97.7
+  }
+}

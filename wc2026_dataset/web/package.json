@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "data": "node scripts/build-flags.mjs && node scripts/prepare-data.mjs"
+  },
+  "dependencies": {
+    "deck.gl": "^9.3.6",
+    "maplibre-gl": "^5.24.0",
+    "motion": "^12.42.2",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-map-gl": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "flag-icons": "^7.5.0",
+    "puppeteer-core": "^24.43.1",
+    "sharp": "^0.35.3",
+    "typescript": "^5"
+  }
+}

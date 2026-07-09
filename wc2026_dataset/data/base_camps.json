@@ -1,0 +1,482 @@
+{
+  "USA": {
+    "team": "Estados Unidos",
+    "city": "Irvine",
+    "facility": "Great Park Sports Complex",
+    "country": "USA",
+    "coords": [
+      33.6846,
+      -117.8265
+    ]
+  },
+  "TUR": {
+    "team": "Turquia",
+    "city": "Mesa",
+    "facility": "Arizona Athletic Grounds",
+    "country": "USA",
+    "coords": [
+      33.4152,
+      -111.8315
+    ]
+  },
+  "AUS": {
+    "team": "Australia",
+    "city": "Oakland",
+    "facility": "Oakland Roots & Soul SC",
+    "country": "USA",
+    "coords": [
+      37.8044,
+      -122.2712
+    ]
+  },
+  "PAR": {
+    "team": "Paraguay",
+    "city": "San Jose",
+    "facility": "San Jose State University",
+    "country": "USA",
+    "coords": [
+      37.3382,
+      -121.8863
+    ]
+  },
+  "QAT": {
+    "team": "Catar",
+    "city": "Santa Barbara",
+    "facility": "Westmont College",
+    "country": "USA",
+    "coords": [
+      34.4208,
+      -119.6982
+    ]
+  },
+  "AUT": {
+    "team": "Austria",
+    "city": "Goleta",
+    "facility": "UC Santa Barbara - Harder Stadium",
+    "country": "USA",
+    "coords": [
+      34.4358,
+      -119.8276
+    ]
+  },
+  "NZL": {
+    "team": "Nueva Zelanda",
+    "city": "San Diego",
+    "facility": "University of San Diego - Torero Stadium",
+    "country": "USA",
+    "coords": [
+      32.7157,
+      -117.1611
+    ]
+  },
+  "SUI": {
+    "team": "Suiza",
+    "city": "San Diego",
+    "facility": "San Diego Jewish Academy",
+    "country": "USA",
+    "coords": [
+      32.7157,
+      -117.1611
+    ]
+  },
+  "CPV": {
+    "team": "Cabo Verde",
+    "city": "Tampa",
+    "facility": "Waters Sportsplex",
+    "country": "USA",
+    "coords": [
+      27.9506,
+      -82.4572
+    ]
+  },
+  "CUW": {
+    "team": "Curazao",
+    "city": "Boca Raton",
+    "facility": "Florida Atlantic University",
+    "country": "USA",
+    "coords": [
+      26.3683,
+      -80.1289
+    ]
+  },
+  "POR": {
+    "team": "Portugal",
+    "city": "Palm Beach Gardens",
+    "facility": "Gardens North County District Park",
+    "country": "USA",
+    "coords": [
+      26.8234,
+      -80.1387
+    ]
+  },
+  "UZB": {
+    "team": "Uzbekistan",
+    "city": "Marietta",
+    "facility": "Atlanta United Training Center",
+    "country": "USA",
+    "coords": [
+      33.9526,
+      -84.5499
+    ]
+  },
+  "ARG": {
+    "team": "Argentina",
+    "city": "Kansas City KS",
+    "facility": "Sporting KC Training Center",
+    "country": "USA",
+    "coords": [
+      39.1235,
+      -94.825
+    ]
+  },
+  "ALG": {
+    "team": "Argelia",
+    "city": "Lawrence",
+    "facility": "University of Kansas",
+    "country": "USA",
+    "coords": [
+      38.9717,
+      -95.2353
+    ]
+  },
+  "FRA": {
+    "team": "Francia",
+    "city": "Waltham",
+    "facility": "Bentley University",
+    "country": "USA",
+    "coords": [
+      42.3765,
+      -71.2356
+    ]
+  },
+  "ENG": {
+    "team": "Inglaterra",
+    "city": "Kansas City",
+    "facility": "Swope Soccer Village",
+    "country": "USA",
+    "coords": [
+      39.0489,
+      -94.4839
+    ]
+  },
+  "NED": {
+    "team": "Paises Bajos",
+    "city": "Kansas City",
+    "facility": "KC Current Training Facility",
+    "country": "USA",
+    "coords": [
+      39.0489,
+      -94.4839
+    ]
+  },
+  "HAI": {
+    "team": "Haiti",
+    "city": "Galloway",
+    "facility": "Stockton University",
+    "country": "USA",
+    "coords": [
+      39.4901,
+      -74.4846
+    ]
+  },
+  "MAR": {
+    "team": "Marruecos",
+    "city": "Basking Ridge",
+    "facility": "The Pingry School",
+    "country": "USA",
+    "coords": [
+      40.7062,
+      -74.5493
+    ]
+  },
+  "SEN": {
+    "team": "Senegal",
+    "city": "Piscataway",
+    "facility": "Rutgers University",
+    "country": "USA",
+    "coords": [
+      40.5549,
+      -74.4649
+    ]
+  },
+  "BRA": {
+    "team": "Brasil",
+    "city": "Morris Township",
+    "facility": "Columbia Park Training Facility (NY Red Bulls)",
+    "country": "USA",
+    "coords": [
+      40.7968,
+      -74.4815
+    ]
+  },
+  "NOR": {
+    "team": "Noruega",
+    "city": "Greensboro",
+    "facility": "UNC Greensboro",
+    "country": "USA",
+    "coords": [
+      36.0726,
+      -79.792
+    ]
+  },
+  "GER": {
+    "team": "Alemania",
+    "city": "Winston-Salem",
+    "facility": "Wake Forest University",
+    "country": "USA",
+    "coords": [
+      36.0999,
+      -80.2442
+    ]
+  },
+  "SCO": {
+    "team": "Escocia",
+    "city": "Charlotte",
+    "facility": "Charlotte FC Training Ground",
+    "country": "USA",
+    "coords": [
+      35.2271,
+      -80.8431
+    ]
+  },
+  "ECU": {
+    "team": "Ecuador",
+    "city": "Columbus",
+    "facility": "OhioHealth Performance Center (Columbus Crew)",
+    "country": "USA",
+    "coords": [
+      39.9612,
+      -82.9988
+    ]
+  },
+  "JOR": {
+    "team": "Jordania",
+    "city": "Portland",
+    "facility": "University of Portland",
+    "country": "USA",
+    "coords": [
+      45.5152,
+      -122.6784
+    ]
+  },
+  "CIV": {
+    "team": "Costa de Marfil",
+    "city": "Chester",
+    "facility": "Subaru Park (Philadelphia Union)",
+    "country": "USA",
+    "coords": [
+      39.8496,
+      -75.3557
+    ]
+  },
+  "GHA": {
+    "team": "Ghana",
+    "city": "Smithfield",
+    "facility": "Bryant University",
+    "country": "USA",
+    "coords": [
+      41.9223,
+      -71.549
+    ]
+  },
+  "JPN": {
+    "team": "Japon",
+    "city": "Nashville",
+    "facility": "Nashville SC Training Center",
+    "country": "USA",
+    "coords": [
+      36.1627,
+      -86.7816
+    ]
+  },
+  "ESP": {
+    "team": "Espana",
+    "city": "Chattanooga",
+    "facility": "Baylor School",
+    "country": "USA",
+    "coords": [
+      35.0456,
+      -85.3097
+    ]
+  },
+  "KSA": {
+    "team": "Arabia Saudita",
+    "city": "Austin",
+    "facility": "Q2 Stadium (Austin FC)",
+    "country": "USA",
+    "coords": [
+      30.2672,
+      -97.7431
+    ]
+  },
+  "COD": {
+    "team": "RD Congo",
+    "city": "Houston",
+    "facility": "Houston Sports Park",
+    "country": "USA",
+    "coords": [
+      29.6847,
+      -95.4107
+    ]
+  },
+  "SWE": {
+    "team": "Suecia",
+    "city": "Frisco",
+    "facility": "Toyota Stadium (FC Dallas)",
+    "country": "USA",
+    "coords": [
+      33.1507,
+      -96.8236
+    ]
+  },
+  "CZE": {
+    "team": "Chequia",
+    "city": "Mansfield",
+    "facility": "Mansfield Multipurpose Stadium",
+    "country": "USA",
+    "coords": [
+      32.5632,
+      -97.1417
+    ]
+  },
+  "BIH": {
+    "team": "Bosnia y Herzegovina",
+    "city": "Sandy",
+    "facility": "Real Salt Lake facilities",
+    "country": "USA",
+    "coords": [
+      40.5649,
+      -111.8389
+    ]
+  },
+  "CRO": {
+    "team": "Croacia",
+    "city": "Alexandria",
+    "facility": "Episcopal High School",
+    "country": "USA",
+    "coords": [
+      38.8048,
+      -77.0469
+    ]
+  },
+  "BEL": {
+    "team": "Belgica",
+    "city": "Renton",
+    "facility": "Seattle Sounders Performance Center",
+    "country": "USA",
+    "coords": [
+      47.4829,
+      -122.2171
+    ]
+  },
+  "EGY": {
+    "team": "Egipto",
+    "city": "Spokane",
+    "facility": "Gonzaga University",
+    "country": "USA",
+    "coords": [
+      47.6588,
+      -117.426
+    ]
+  },
+  "IRQ": {
+    "team": "Irak",
+    "city": "White Sulphur Springs",
+    "facility": "Greenbrier Sports Performance Center",
+    "country": "USA",
+    "coords": [
+      37.7973,
+      -80.299
+    ]
+  },
+  "COL": {
+    "team": "Colombia",
+    "city": "Guadalajara",
+    "facility": "Academia Atlas FC",
+    "country": "Mexico",
+    "coords": [
+      20.6819,
+      -103.4626
+    ]
+  },
+  "KOR": {
+    "team": "Corea del Sur",
+    "city": "Guadalajara",
+    "facility": "Chivas Verde Valle",
+    "country": "Mexico",
+    "coords": [
+      20.6819,
+      -103.4626
+    ]
+  },
+  "IRN": {
+    "team": "Iran",
+    "city": "Tijuana",
+    "facility": "Centro Xoloitzcuintle",
+    "country": "Mexico",
+    "coords": [
+      32.5149,
+      -117.0382
+    ]
+  },
+  "MEX": {
+    "team": "Mexico",
+    "city": "Mexico City",
+    "facility": "Centro de Alto Rendimiento (CAR)",
+    "country": "Mexico",
+    "coords": [
+      19.303,
+      -99.1505
+    ]
+  },
+  "RSA": {
+    "team": "Sudafrica",
+    "city": "Pachuca",
+    "facility": "CF Pachuca - Universidad del Futbol",
+    "country": "Mexico",
+    "coords": [
+      20.1011,
+      -98.7591
+    ]
+  },
+  "TUN": {
+    "team": "Tunez",
+    "city": "Santiago",
+    "facility": "Rayados Training Center",
+    "country": "Mexico",
+    "coords": [
+      25.4233,
+      -100.1517
+    ]
+  },
+  "URU": {
+    "team": "Uruguay",
+    "city": "Playa del Carmen",
+    "facility": "Mayakoba Training Center",
+    "country": "Mexico",
+    "coords": [
+      20.6296,
+      -87.0739
+    ]
+  },
+  "CAN": {
+    "team": "Canada",
+    "city": "Vancouver",
+    "facility": "National Soccer Development Centre",
+    "country": "Canada",
+    "coords": [
+      49.2767,
+      -123.1119
+    ]
+  },
+  "PAN": {
+    "team": "Panama",
+    "city": "New Tecumseth",
+    "facility": "Nottawasaga Training Site",
+    "country": "Canada",
+    "coords": [
+      44.1256,
+      -79.7876
+    ]
+  }
+}
