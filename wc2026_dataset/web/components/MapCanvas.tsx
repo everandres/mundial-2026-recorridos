@@ -2,13 +2,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import MapGL, { useControl, type MapRef } from "react-map-gl/maplibre";
 import { MapboxOverlay } from "@deck.gl/mapbox";
-import { IconLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
-import { GreatCircleLayer } from "@deck.gl/geo-layers";
+import { ArcLayer, IconLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
 import type { ExpressionSpecification, StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Timeline } from "@/lib/types";
 import { rgbDark } from "@/lib/colors";
-import { activeClashes, explosions, graves, teamMarkers, trailFlights, EXPL_DUR, type TeamMarker } from "@/lib/timeline";
+import { activeClashes, explosions, graves, teamMarkers, trailFlights, ARC_HEIGHT, EXPL_DUR, type TeamMarker } from "@/lib/timeline";
 
 // Área de juego (sedes + bases, con margen). fitBounds calcula el zoom exacto
 // para que quepa entero sin importar el tamaño/proporción de la pantalla,
@@ -162,10 +161,12 @@ export default function MapCanvas({
         outlineWidth: 2,
         fontSettings: { sdf: true },
       }),
-      new GreatCircleLayer({
+      new ArcLayer({
         id: "trails",
         data: trails,
         pickable: true,
+        greatCircle: true,
+        getHeight: ARC_HEIGHT,
         getSourcePosition: (d) => d.from,
         getTargetPosition: (d) => d.to,
         getSourceColor: (d) => {
@@ -205,7 +206,7 @@ export default function MapCanvas({
         onClick: (info: { object?: TeamMarker }) => {
           if (info.object) onSelect(info.object.code);
         },
-        getPosition: (d) => d.pos,
+        getPosition: (d) => [d.pos[0], d.pos[1], d.alt],
         getIcon: (d) => ({
           id: d.eliminated ? `${d.iso}_g` : d.iso,
           url: `/flags/${d.iso}${d.eliminated ? "_gray" : ""}.png`,

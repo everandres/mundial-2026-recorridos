@@ -30,10 +30,14 @@ export interface TeamMarker {
   iso: string;
   color: string;
   pos: LngLat;
+  alt: number; // altura sobre el terreno (m) para cabalgar la parábola del vuelo
   flying: boolean;
   eliminated: boolean;
   km: number;
 }
+
+// Altura del arco de vuelo (debe coincidir con getHeight del ArcLayer).
+export const ARC_HEIGHT = 0.35;
 
 // Índice vuelos-por-equipo (ordenados). Se cachea por Timeline para no
 // reconstruirlo en cada frame (teamMarkers se llama varias veces por frame).
@@ -59,6 +63,7 @@ export function teamMarkers(tl: Timeline, t: number): TeamMarker[] {
     const team = tl.teams[code];
     const legs = byTeam.get(code) || [];
     let pos: LngLat = team.baseCoords;
+    let alt = 0;
     let flying = false;
     let km = 0;
 
@@ -75,6 +80,8 @@ export function teamMarkers(tl: Timeline, t: number): TeamMarker[] {
       pos = greatCircle(inFlight.from, inFlight.to, f);
       flying = inFlight.distance_km > 1;
       km = inFlight.cumBefore + f * inFlight.distance_km;
+      // altura de la parábola (misma fórmula que ArcLayer en modo greatCircle)
+      alt = Math.sqrt(f * (1 - f)) * inFlight.distance_km * 1000 * ARC_HEIGHT;
     } else if (lastDone) {
       pos = lastDone.to;
       km = lastDone.cumulative_km;
@@ -86,7 +93,7 @@ export function teamMarkers(tl: Timeline, t: number): TeamMarker[] {
     const eliminated = team.eliminated && team.elimTime != null && t >= team.elimTime;
     if (eliminated && team.elimCoords) pos = team.elimCoords;
 
-    markers.push({ code, iso: team.iso, color: team.color, pos, flying, eliminated, km: Math.round(km) });
+    markers.push({ code, iso: team.iso, color: team.color, pos, alt, flying, eliminated, km: Math.round(km) });
   }
   return markers;
 }
