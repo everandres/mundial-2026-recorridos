@@ -1,5 +1,4 @@
 "use client";
-import { fmtDate } from "@/lib/timeline";
 
 interface Props {
   t: number;
@@ -7,7 +6,6 @@ interface Props {
   max: number;
   playing: boolean;
   speed: number;
-  day0: string;
   onToggle: () => void;
   onSeek: (v: number) => void;
   onSpeed: (v: number) => void;
@@ -21,7 +19,6 @@ export default function TimelineControls(p: Props) {
       <button className="play" onClick={p.onToggle}>
         {p.playing ? "❚❚" : "▶"}
       </button>
-      <div className="date">{fmtDate(p.day0, p.t)}</div>
       <input
         className="scrub"
         type="range"

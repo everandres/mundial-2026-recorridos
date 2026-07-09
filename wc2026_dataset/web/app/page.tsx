@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
 import type { Timeline } from "@/lib/types";
 import { useClock } from "@/lib/useClock";
-import { featuredClash, teamMarkers } from "@/lib/timeline";
+import { featuredClash, fmtDate, teamMarkers } from "@/lib/timeline";
 import RankingRace from "@/components/RankingRace";
 import TimelineControls from "@/components/TimelineControls";
 import MatchResultCard from "@/components/MatchResultCard";
@@ -58,6 +58,10 @@ function Board({ tl }: { tl: Timeline }) {
       <main className="stage">
         <div className="mapwrap">
           <MapCanvas tl={tl} t={t} />
+          <div className="daybig">
+            <span className="db-day">{fmtDate(tl.meta.day0, t)}</span>
+            <span className="db-year">2026</span>
+          </div>
           <div className="counter">
             <div className="c1">{Math.round(totalKm).toLocaleString("es")} km</div>
             <div className="c2">DISTANCIA TOTAL ACUMULADA · {alive} SELECCIONES EN PIE</div>
@@ -69,7 +73,6 @@ function Board({ tl }: { tl: Timeline }) {
             max={tl.meta.maxDay}
             playing={playing}
             speed={speed}
-            day0={tl.meta.day0}
             onToggle={toggle}
             onSeek={seek}
             onSpeed={setSpeed}

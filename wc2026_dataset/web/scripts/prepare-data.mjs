@@ -33,6 +33,37 @@ const cityCoords = (name) => {
   const c = citiesRaw[name] || stadiumsRaw[name];
   return c ? lonlat(c.coords) : null;
 };
+const pairKey = (date, a, b) => `${date}|${[a, b].sort().join("-")}`;
+
+// ---- hora de cada partido, repartida a lo largo del día ----
+// Los encuentros de una misma fecha se distribuyen en la ventana [LO,HI] del día
+// para que vuelos, choques y tarjetas aparezcan escalonados y no todos de golpe.
+const MATCH_LO = 0.28, MATCH_HI = 0.82;
+const matchTimeByKey = new Map();
+{
+  const byDate = new Map();
+  const add = (date, a, b) => {
+    if (!byDate.has(date)) byDate.set(date, []);
+    byDate.get(date).push([date, a, b]);
+  };
+  for (const m of matchesRaw.group) add(m.date, m.home, m.away);
+  for (const m of matchesRaw.knockout) add(m.date, m.teamA, m.teamB);
+  for (const [date, list] of byDate) {
+    const d = dayOf(date);
+    const n = list.length;
+    list.forEach(([dt, a, b], i) => {
+      const frac = n === 1 ? 0.5 : MATCH_LO + (i / (n - 1)) * (MATCH_HI - MATCH_LO);
+      matchTimeByKey.set(pairKey(dt, a, b), d + frac);
+    });
+  }
+}
+const matchTimeFor = (date, a, b) => matchTimeByKey.get(pairKey(date, a, b)) ?? dayOf(date) + 0.5;
+
+// Ventanas de vuelo relativas a la hora del partido.
+const FLIGHT_DUR = 0.34; // duración del vuelo de ida (planeo)
+const LEAD = 0.03;       // aterriza justo antes del partido
+const RET_GAP = 0.06;    // sale de regreso poco después del partido
+const RET_DUR = 0.32;    // duración del vuelo de regreso
 
 // ---- itinerarios -> flights + teams + eliminaciones ----
 const itinFiles = readdirSync(join(DATA, "itineraries")).filter((f) => f.endsWith(".json"));
@@ -52,14 +83,25 @@ for (const file of itinFiles) {
   let elimLeg = null;
   for (const lg of it.legs) if (lg.opponent) elimLeg = lg;
 
+  let lastMatchT = null; // hora del partido del último tramo de ida (para el regreso)
   it.legs.forEach((lg, i) => {
     const d = dayOf(lg.date);
     const isReturn = lg.stage === "Return";
     const isKnockout = ["Round32", "Round16", "Quarterfinal"].includes(lg.stage);
-    // ventana temporal dentro del día: el vuelo de ida planea buena parte de la
-    // jornada y aterriza justo antes del partido (0.5); el regreso ocupa la tarde.
-    const tStart = isReturn ? d + 0.56 : d + 0.05;
-    const tEnd = isReturn ? d + 0.96 : d + 0.48;
+
+    // La ida (con opponent) aterriza justo antes de SU partido; el regreso sale
+    // poco después. Así los eventos de una misma fecha quedan escalonados.
+    let tStart, tEnd;
+    if (isReturn) {
+      const mt = lastMatchT ?? d + 0.5;
+      tStart = mt + RET_GAP;
+      tEnd = tStart + RET_DUR;
+    } else {
+      const mt = matchTimeFor(lg.date, code, lg.opponent);
+      lastMatchT = mt;
+      tEnd = mt - LEAD;
+      tStart = Math.max(d, tEnd - FLIGHT_DUR);
+    }
     if (tEnd > maxDay) maxDay = tEnd;
 
     flights.push({
@@ -89,13 +131,13 @@ for (const file of itinFiles) {
     if (lg.opponent) presence.add(`${code}|${lg.date}|${lg.to}`);
   });
 
-  const t = teamsRaw[code] || {};
+  const elimMatchT = elimLeg ? matchTimeFor(elimLeg.date, code, elimLeg.opponent) : null;
   const elim = it.eliminated
     ? {
         elimCity: elimLeg ? elimLeg.to : it.baseCamp,
         elimCoords: elimLeg ? lonlat(elimLeg.to_coords) : lonlat(it.baseCampCoords),
         elimDay: elimLeg ? dayOf(elimLeg.date) : maxDay,
-        elimTime: (elimLeg ? dayOf(elimLeg.date) : maxDay) + 0.55,
+        elimTime: (elimMatchT ?? maxDay) + 0.08,
       }
     : {};
 
@@ -129,7 +171,7 @@ const pushClash = (m, a, b, isKnockout) => {
     id: `clash-${cid++}`,
     date: m.date,
     day: d,
-    tMatch: d + 0.5,
+    tMatch: matchTimeFor(m.date, a, b),
     city: m.city,
     stadium: m.stadium,
     coords,

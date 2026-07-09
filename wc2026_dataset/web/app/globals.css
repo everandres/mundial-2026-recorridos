@@ -63,11 +63,18 @@ body {
   font-size: 15px; display: grid; place-items: center; box-shadow: 0 3px 10px rgba(228, 0, 43, 0.35);
 }
 .play:active { transform: translateY(1px); }
-.date {
-  font-family: var(--font-head); font-weight: 400; font-size: 17px; min-width: 130px; color: var(--ink);
-}
-.date::first-letter { text-transform: uppercase; }
 .scrub { flex: 1; accent-color: var(--accent); cursor: pointer; }
+/* fecha grande sobre el mapa */
+.daybig { position: absolute; top: 16px; left: 20px; pointer-events: none; line-height: 0.86; }
+.db-day {
+  display: block; font-family: var(--font-head); font-size: 50px; color: var(--ink);
+  text-transform: uppercase; letter-spacing: -0.005em;
+}
+.db-year {
+  display: block; font-family: var(--font-head); font-size: 26px; color: var(--accent);
+  letter-spacing: 0.02em; margin-top: 2px;
+}
+@media (max-width: 860px) { .db-day { font-size: 38px; } .db-year { font-size: 20px; } }
 .speeds { display: flex; gap: 6px; }
 .spd {
   background: #fff; color: var(--mut); border: 1px solid var(--line);
