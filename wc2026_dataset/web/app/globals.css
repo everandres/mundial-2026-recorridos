@@ -203,3 +203,59 @@ body {
   .detail-stats { grid-template-columns: repeat(3, 1fr); }
   .detail-cols { grid-template-columns: 1fr; }
 }
+
+/* ---- teléfono ---- */
+@media (max-width: 600px) {
+  .topbar { padding: 10px 14px; gap: 8px; }
+  .brand { font-size: 15px; }
+  .brand small { font-size: 8px; letter-spacing: 0.16em; margin-top: 4px; }
+  .legend { gap: 7px 10px; font-size: 9px; width: 100%; margin-left: 0; }
+  .legend i { width: 8px; height: 8px; }
+
+  .stage { grid-template-rows: 1fr 42vh; }
+
+  .daybig { top: 10px; left: 12px; }
+  .db-day { font-size: 29px; }
+  .db-year { font-size: 15px; }
+
+  .counter { left: 12px; bottom: 68px; }
+  .counter .c1 { font-size: 21px; }
+  .counter .c2 { font-size: 8.5px; margin-top: 3px; }
+  .calive { margin-top: 8px; gap: 7px; }
+  .calive b { font-size: 30px; }
+  .calive span { font-size: 10px; max-width: 76px; }
+
+  .controls { padding: 8px 12px; gap: 9px; }
+  .play { width: 38px; height: 38px; font-size: 13px; }
+  .speeds { gap: 4px; }
+  .spd { padding: 4px 7px; font-size: 10px; }
+
+  .result { top: 62px; min-width: 0; max-width: calc(100vw - 24px); padding: 9px 13px 11px; }
+  .rs-round { font-size: 9px; }
+  .rs-body { gap: 13px; margin: 7px 0 4px; }
+  .rs-side img { width: 38px; height: 38px; }
+  .rs-side span { font-size: 12px; }
+  .rs-score { font-size: 28px; }
+  .rs-stadium { font-size: 10px; }
+
+  /* chip abajo (sobre los controles) para no chocar con la tarjeta arriba */
+  .focuschip { top: auto; bottom: 66px; left: 50%; right: auto; transform: translateX(-50%); font-size: 12px; padding: 5px 6px; }
+  .focuschip img { width: 22px; height: 22px; }
+  .fc-x { font-size: 10px; padding: 3px 8px; }
+
+  /* panel de detalle a pantalla completa (no se recorta con el mapa corto) */
+  .detail-backdrop { position: fixed; padding: 12px; }
+  .detail { padding: 24px 16px 20px; max-height: calc(100vh - 24px); box-shadow: 6px 6px 0 rgba(20, 23, 31, 0.15); }
+  .detail-head { flex-wrap: wrap; gap: 12px; padding-right: 34px; }
+  .detail-flag { width: 46px; height: 46px; }
+  .detail-name { font-size: 22px; }
+  .detail-sub { margin-top: 4px; }
+  .detail-stage { order: 3; width: 100%; text-align: center; }
+  .detail-stats { gap: 6px; }
+  .dstat { padding: 8px 6px; }
+  .dstat-v { font-size: 15px; }
+  .dstat-k { font-size: 8px; }
+  .detail-cols { gap: 16px; }
+  .mtch { gap: 6px; font-size: 11px; }
+  .leg { font-size: 11px; }
+}
