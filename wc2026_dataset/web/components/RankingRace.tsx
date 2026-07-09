@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import type { Timeline } from "@/lib/types";
 import { ranking, teamMarkers } from "@/lib/timeline";
+import { asset } from "@/lib/asset";
 
 export default function RankingRace({
   tl,
@@ -38,7 +39,7 @@ export default function RankingRace({
               role="button"
             >
               <span className="rk-pos">{r.rank}</span>
-              <img className="rk-flag" src={`/flags/${r.iso}${r.eliminated ? "_gray" : ""}.png`} alt="" />
+              <img className="rk-flag" src={asset(`/flags/${r.iso}${r.eliminated ? "_gray" : ""}.png`)} alt="" />
               <div className="rk-body">
                 <div className="rk-name">
                   {r.code}

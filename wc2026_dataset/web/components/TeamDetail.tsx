@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import type { Timeline } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 const MES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 const fdate = (iso: string) => {
@@ -51,7 +52,7 @@ export default function TeamDetail({
         <button className="detail-close" onClick={onClose} aria-label="Cerrar">✕</button>
 
         <header className="detail-head">
-          <img className="detail-flag" src={`/flags/${team.iso}.png`} alt="" />
+          <img className="detail-flag" src={asset(`/flags/${team.iso}.png`)} alt="" />
           <div className="detail-id">
             <div className="detail-name">{team.name}</div>
             <div className="detail-sub">{team.code} · {team.confederation}</div>
@@ -93,7 +94,7 @@ export default function TeamDetail({
                       {c.round}
                       {c.kickoff ? <em>{c.kickoff}</em> : null}
                     </span>
-                    <img className="m-flag" src={`/flags/${opp.iso}.png`} alt="" />
+                    <img className="m-flag" src={asset(`/flags/${opp.iso}.png`)} alt="" />
                     <span className="m-opp">{opp.code}</span>
                     <span className={`m-score ${outcome}`}>
                       {sc ?? "vs"}{pen ? ` · pen ${pen}` : ""}

@@ -5,6 +5,7 @@ import { AnimatePresence } from "motion/react";
 import type { Timeline } from "@/lib/types";
 import { useClock } from "@/lib/useClock";
 import { featuredClash, fmtDate, teamMarkers } from "@/lib/timeline";
+import { asset } from "@/lib/asset";
 import RankingRace from "@/components/RankingRace";
 import TimelineControls from "@/components/TimelineControls";
 import MatchResultCard from "@/components/MatchResultCard";
@@ -15,7 +16,7 @@ const MapCanvas = dynamic(() => import("@/components/MapCanvas"), { ssr: false }
 export default function Page() {
   const [tl, setTl] = useState<Timeline | null>(null);
   useEffect(() => {
-    fetch("/data/timeline.json")
+    fetch(asset("/data/timeline.json"))
       .then((r) => r.json())
       .then(setTl);
   }, []);
@@ -82,7 +83,7 @@ function Board({ tl }: { tl: Timeline }) {
           </div>
           {focus && !detail && (
             <button className="focuschip" onClick={() => setFocus(null)}>
-              <img src={`/flags/${tl.teams[focus].iso}.png`} alt="" />
+              <img src={asset(`/flags/${tl.teams[focus].iso}.png`)} alt="" />
               {tl.teams[focus].name}
               <span className="fc-x">✕ ver todos</span>
             </button>

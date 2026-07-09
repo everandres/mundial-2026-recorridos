@@ -7,6 +7,7 @@ import type { ExpressionSpecification, StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Timeline } from "@/lib/types";
 import { rgbDark } from "@/lib/colors";
+import { asset } from "@/lib/asset";
 import { activeClashes, explosions, graves, teamMarkers, trailFlights, ARC_HEIGHT, EXPL_DUR, type TeamMarker } from "@/lib/timeline";
 
 // Área de juego (sedes + bases, con margen). fitBounds calcula el zoom exacto
@@ -47,7 +48,7 @@ const LINE_BY_CODE = ["match", ["get", "code"], "USA", "#0A3EA1", "CAN", "#E4002
 const MAP_STYLE: StyleSpecification = {
   version: 8,
   sources: {
-    na: { type: "geojson", data: "/geo/na.geojson" },
+    na: { type: "geojson", data: asset("/geo/na.geojson") },
   },
   layers: [
     { id: "bg", type: "background", paint: { "background-color": "#FFFFFF" } },
@@ -209,7 +210,7 @@ export default function MapCanvas({
         getPosition: (d) => [d.pos[0], d.pos[1], d.alt],
         getIcon: (d) => ({
           id: d.eliminated ? `${d.iso}_g` : d.iso,
-          url: `/flags/${d.iso}${d.eliminated ? "_gray" : ""}.png`,
+          url: asset(`/flags/${d.iso}${d.eliminated ? "_gray" : ""}.png`),
           width: 128,
           height: 128,
           mask: false,
@@ -234,7 +235,7 @@ export default function MapCanvas({
         id: "resting",
         data: resting,
         getPosition: (d: TeamMarker) => d.pos,
-        getIcon: () => ({ id: "sleep", url: "/dormir.svg", width: 246, height: 246, mask: false }),
+        getIcon: () => ({ id: "sleep", url: asset("/dormir.svg"), width: 246, height: 246, mask: false }),
         getSize: sleepSize,
         getPixelOffset: (d: TeamMarker) => {
           const [ox, oy] = offsets.get(d.code) ?? [0, 0];

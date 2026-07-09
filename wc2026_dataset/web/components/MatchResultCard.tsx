@@ -1,6 +1,7 @@
 "use client";
 import { AnimatePresence, motion } from "motion/react";
 import type { Clash } from "@/lib/types";
+import { asset } from "@/lib/asset";
 
 export default function MatchResultCard({ clash }: { clash: Clash | null }) {
   return (
@@ -41,7 +42,7 @@ function Side({ iso, code, win, dir }: { iso: string; code: string; win: boolean
       animate={{ x: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 300, damping: 18, delay: 0.05 }}
     >
-      <img src={`/flags/${iso}.png`} alt="" />
+      <img src={asset(`/flags/${iso}.png`)} alt="" />
       <span>{code}</span>
       {win && <em>▲</em>}
     </motion.div>
