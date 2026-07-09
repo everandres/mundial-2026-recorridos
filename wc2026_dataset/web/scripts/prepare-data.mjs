@@ -56,9 +56,10 @@ for (const file of itinFiles) {
     const d = dayOf(lg.date);
     const isReturn = lg.stage === "Return";
     const isKnockout = ["Round32", "Round16", "Quarterfinal"].includes(lg.stage);
-    // ventana temporal dentro del día
-    const tStart = isReturn ? d + 0.55 : d + 0.12;
-    const tEnd = isReturn ? d + 0.9 : d + 0.47;
+    // ventana temporal dentro del día: el vuelo de ida planea buena parte de la
+    // jornada y aterriza justo antes del partido (0.5); el regreso ocupa la tarde.
+    const tStart = isReturn ? d + 0.56 : d + 0.05;
+    const tEnd = isReturn ? d + 0.96 : d + 0.48;
     if (tEnd > maxDay) maxDay = tEnd;
 
     flights.push({

@@ -13,7 +13,7 @@ interface Props {
   onSpeed: (v: number) => void;
 }
 
-const SPEEDS = [0.35, 0.7, 1.5, 3];
+const SPEEDS = [0.2, 0.4, 0.8, 1.5];
 
 export default function TimelineControls(p: Props) {
   return (

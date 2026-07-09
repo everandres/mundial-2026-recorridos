@@ -1,20 +1,24 @@
 "use client";
 import { useMemo } from "react";
-import Map, { useControl } from "react-map-gl/maplibre";
+import MapGL, { useControl } from "react-map-gl/maplibre";
 import { MapboxOverlay } from "@deck.gl/mapbox";
 import { IconLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
 import { GreatCircleLayer } from "@deck.gl/geo-layers";
-import type { StyleSpecification } from "maplibre-gl";
+import type { ExpressionSpecification, StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Timeline } from "@/lib/types";
-import { rgb } from "@/lib/colors";
-import { activeClashes, graves, teamMarkers, trailFlights } from "@/lib/timeline";
+import { rgbDark } from "@/lib/colors";
+import { activeClashes, graves, teamMarkers, trailFlights, type TeamMarker } from "@/lib/timeline";
 
 const TOMB =
   "data:image/svg+xml;base64," +
   btoa(
-    `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="#8892ab"/><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="none" stroke="#c3cbe0" stroke-width="2"/><rect x="27" y="34" width="10" height="3" fill="#e9edf7"/><rect x="30.5" y="30" width="3" height="14" fill="#e9edf7"/></svg>`,
+    `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="#6b7280"/><path d="M20 60h24V30a12 12 0 0 0-24 0z" fill="none" stroke="#2f3542" stroke-width="2"/><rect x="27" y="34" width="10" height="3" fill="#fff"/><rect x="30.5" y="30" width="3" height="14" fill="#fff"/></svg>`,
   );
+
+// Colores oficiales de los anfitriones FIFA 2026: USA azul, Canadá rojo, México verde.
+const FILL_BY_CODE = ["match", ["get", "code"], "USA", "#E4EBFA", "CAN", "#FBE1E6", "MEX", "#E0F2E6", "#EFEFEF"] as ExpressionSpecification;
+const LINE_BY_CODE = ["match", ["get", "code"], "USA", "#0A3EA1", "CAN", "#E4002B", "MEX", "#00843D", "#B9BDC7"] as ExpressionSpecification;
 
 const MAP_STYLE: StyleSpecification = {
   version: 8,
@@ -22,18 +26,18 @@ const MAP_STYLE: StyleSpecification = {
     na: { type: "geojson", data: "/geo/na.geojson" },
   },
   layers: [
-    { id: "bg", type: "background", paint: { "background-color": "#070B14" } },
+    { id: "bg", type: "background", paint: { "background-color": "#FFFFFF" } },
     {
       id: "na-fill",
       type: "fill",
       source: "na",
-      paint: { "fill-color": "#111a2e", "fill-opacity": 0.9 },
+      paint: { "fill-color": FILL_BY_CODE, "fill-opacity": 0.9 },
     },
     {
       id: "na-line",
       type: "line",
       source: "na",
-      paint: { "line-color": "#2b3a52", "line-width": 1 },
+      paint: { "line-color": LINE_BY_CODE, "line-width": 1.6 },
     },
   ],
 };
@@ -52,6 +56,28 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
     const clashes = activeClashes(tl, t);
     const tombs = graves(tl, t);
 
+    // Reparte en abanico las banderas que comparten posición (bases o sede de partido)
+    // para que se vea que hay varias concentradas, no una sola.
+    const FLAG = 20;
+    const offsets: Map<string, [number, number]> = new Map();
+    const groups: Map<string, TeamMarker[]> = new Map();
+    for (const m of markers) {
+      const key = `${m.pos[0].toFixed(2)},${m.pos[1].toFixed(2)}`;
+      (groups.get(key) ?? groups.set(key, []).get(key)!).push(m);
+    }
+    for (const arr of groups.values()) {
+      const n = arr.length;
+      if (n === 1) {
+        offsets.set(arr[0].code, [0, 0]);
+        continue;
+      }
+      const R = Math.max(FLAG * 0.72, (n * FLAG) / (2 * Math.PI));
+      arr.forEach((m, i) => {
+        const a = (i / n) * Math.PI * 2 - Math.PI / 2;
+        offsets.set(m.code, [Math.cos(a) * R, Math.sin(a) * R]);
+      });
+    }
+
     return [
       new ScatterplotLayer({
         id: "stadiums",
@@ -59,21 +85,25 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
         getPosition: (d: (typeof tl.stadiums)[number]) => d.coords,
         getRadius: 5,
         radiusUnits: "pixels",
-        getFillColor: [245, 196, 81, 40],
-        getLineColor: [245, 196, 81, 200],
+        getFillColor: [20, 23, 31, 35],
+        getLineColor: [20, 23, 31, 190],
         stroked: true,
-        lineWidthMinPixels: 1,
+        lineWidthMinPixels: 1.5,
       }),
       new TextLayer({
         id: "stadium-labels",
         data: tl.stadiums,
         getPosition: (d: (typeof tl.stadiums)[number]) => d.coords,
         getText: (d: (typeof tl.stadiums)[number]) => d.city,
-        getSize: 10,
-        getColor: [126, 137, 166, 200],
-        getPixelOffset: [0, -12],
-        fontFamily: "monospace",
+        getSize: 11,
+        getColor: [20, 23, 31, 210],
+        getPixelOffset: [0, -13],
+        fontFamily: "Oswald, sans-serif",
+        fontWeight: 600,
         characterSet: "auto",
+        outlineColor: [255, 255, 255, 255],
+        outlineWidth: 2,
+        fontSettings: { sdf: true },
       }),
       new GreatCircleLayer({
         id: "trails",
@@ -81,12 +111,12 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
         getSourcePosition: (d) => d.from,
         getTargetPosition: (d) => d.to,
         getSourceColor: (d) => {
-          const [r, g, b] = rgb(d.color);
-          return [r, g, b, d.isReturn ? 35 : d.isKnockout ? 150 : 90];
+          const [r, g, b] = rgbDark(d.color);
+          return [r, g, b, d.isReturn ? 55 : d.isKnockout ? 220 : 140];
         },
         getTargetColor: (d) => {
-          const [r, g, b] = rgb(d.color);
-          return [r, g, b, d.isReturn ? 35 : d.isKnockout ? 150 : 90];
+          const [r, g, b] = rgbDark(d.color);
+          return [r, g, b, d.isReturn ? 55 : d.isKnockout ? 220 : 140];
         },
         getWidth: (d) => (d.isKnockout ? 2.5 : d.isReturn ? 0.8 : 1.4),
         widthUnits: "pixels",
@@ -100,8 +130,8 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
         stroked: true,
         filled: false,
         getLineColor: (d) => {
-          const a = Math.max(0, 220 - (t - d.tMatch) * 700);
-          return d.isKnockout ? [245, 196, 81, a] : [233, 237, 247, a * 0.6];
+          const a = Math.max(0, 230 - (t - d.tMatch) * 700);
+          return d.isKnockout ? [228, 0, 43, a] : [10, 62, 161, a * 0.8];
         },
         lineWidthMinPixels: 2,
         updateTriggers: { getRadius: t, getLineColor: t },
@@ -117,10 +147,11 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
           height: 128,
           mask: false,
         }),
-        getSize: (d) => (d.flying ? 34 : 26),
+        getSize: (d) => (d.flying ? 28 : 20),
+        getPixelOffset: (d) => offsets.get(d.code) ?? [0, 0],
         sizeUnits: "pixels",
         billboard: true,
-        updateTriggers: { getPosition: t, getIcon: t, getSize: t },
+        updateTriggers: { getPosition: t, getIcon: t, getSize: t, getPixelOffset: t },
       }),
       new IconLayer({
         id: "graves",
@@ -135,7 +166,7 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
   }, [tl, t]);
 
   return (
-    <Map
+    <MapGL
       initialViewState={{ longitude: -100, latitude: 37, zoom: 3.1 }}
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
       mapStyle={MAP_STYLE}
@@ -146,6 +177,6 @@ export default function MapCanvas({ tl, t }: { tl: Timeline; t: number }) {
       attributionControl={false}
     >
       <DeckOverlay layers={layers} />
-    </Map>
+    </MapGL>
   );
 }

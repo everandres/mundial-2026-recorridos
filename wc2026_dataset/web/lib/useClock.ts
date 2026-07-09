@@ -7,7 +7,7 @@ interface Opts {
   speed?: number; // días por segundo
 }
 
-export function useClock({ min, max, speed = 0.7 }: Opts) {
+export function useClock({ min, max, speed = 0.4 }: Opts) {
   const [t, setT] = useState(min);
   const [playing, setPlaying] = useState(false);
   const [spd, setSpd] = useState(speed);

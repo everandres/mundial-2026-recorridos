@@ -27,3 +27,9 @@ export function rgb(hex: string): [number, number, number] {
     parseInt(h.slice(4, 6), 16),
   ];
 }
+
+// Oscurece un color (para que los arcos contrasten sobre fondo blanco).
+export function rgbDark(hex: string, f = 0.78): [number, number, number] {
+  const [r, g, b] = rgb(hex);
+  return [Math.round(r * f), Math.round(g * f), Math.round(b * f)];
+}

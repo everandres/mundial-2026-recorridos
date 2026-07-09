@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Archivo, Inter, JetBrains_Mono } from "next/font/google";
+import { Alfa_Slab_One, Oswald } from "next/font/google";
 import "./globals.css";
 
-const archivo = Archivo({ variable: "--font-archivo", subsets: ["latin"], weight: ["600", "800", "900"] });
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"], weight: ["400", "500", "600"] });
-const mono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"], weight: ["400", "500", "700"] });
+// Alfa Slab One: slab pesada tipo cartel de imprenta / pancarta clásica.
+const display = Alfa_Slab_One({ variable: "--font-display", subsets: ["latin"], weight: ["400"] });
+// Oswald: condensada atlética, para etiquetas, datos y texto.
+const cond = Oswald({ variable: "--font-cond", subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
   title: "Mundial 2026 · Recorridos en vivo",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es" className={`${archivo.variable} ${inter.variable} ${mono.variable}`}>
+    <html lang="es" className={`${display.variable} ${cond.variable}`}>
       <body>{children}</body>
     </html>
   );
