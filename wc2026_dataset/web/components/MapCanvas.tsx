@@ -1,6 +1,6 @@
 "use client";
-import { useCallback, useMemo } from "react";
-import MapGL, { useControl } from "react-map-gl/maplibre";
+import { useCallback, useEffect, useMemo, useRef } from "react";
+import MapGL, { useControl, type MapRef } from "react-map-gl/maplibre";
 import { MapboxOverlay } from "@deck.gl/mapbox";
 import { IconLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
 import { GreatCircleLayer } from "@deck.gl/geo-layers";
@@ -9,6 +9,15 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import type { Timeline } from "@/lib/types";
 import { rgbDark } from "@/lib/colors";
 import { activeClashes, explosions, graves, teamMarkers, trailFlights, EXPL_DUR, type TeamMarker } from "@/lib/timeline";
+
+// Área de juego (sedes + bases, con margen). fitBounds calcula el zoom exacto
+// para que quepa entero sin importar el tamaño/proporción de la pantalla,
+// así nadie necesita hacer pinch-zoom-out al abrir la página.
+const PLAY_BOUNDS: [[number, number], [number, number]] = [
+  [-129, 13],
+  [-64, 55],
+];
+const FIT_PADDING = { top: 90, bottom: 100, left: 30, right: 30 };
 
 const TOMB =
   "data:image/svg+xml;base64," +
@@ -251,6 +260,27 @@ export default function MapCanvas({
     ];
   }, [tl, t, focus, onSelect]);
 
+  const mapRef = useRef<MapRef | null>(null);
+  const fitToScreen = useCallback((instant = false) => {
+    mapRef.current?.getMap().fitBounds(PLAY_BOUNDS, { padding: FIT_PADDING, animate: !instant, duration: 400 });
+  }, []);
+
+  // Reajusta si cambia el tamaño de ventana (rotación de pantalla, resize).
+  useEffect(() => {
+    let raf = 0;
+    const onResize = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => fitToScreen(true));
+    };
+    window.addEventListener("resize", onResize);
+    window.addEventListener("orientationchange", onResize);
+    return () => {
+      window.removeEventListener("resize", onResize);
+      window.removeEventListener("orientationchange", onResize);
+      cancelAnimationFrame(raf);
+    };
+  }, [fitToScreen]);
+
   const getTooltip = useCallback(
     (info: { object?: { code?: string; fromCity?: string; toCity?: string }; layer?: { id?: string } }) => {
       const o = info.object;
@@ -276,7 +306,9 @@ export default function MapCanvas({
 
   return (
     <MapGL
+      ref={mapRef}
       initialViewState={{ longitude: -100, latitude: 37, zoom: 3.1 }}
+      onLoad={() => fitToScreen(true)}
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
       mapStyle={MAP_STYLE}
       maxBounds={[
